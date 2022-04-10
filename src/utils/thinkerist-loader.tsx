@@ -28,7 +28,7 @@ export const ThinkeristContainer = forwardRef(({ children }:any, ref:any) => (
     zIndex={8}
     justifyContent={'center'}
     alignItems={'center'}
-    ml={{base:'-17vw',sm:'-15vw',md:'-5vw',xl:'5vw'}}
+    ml={{base:'-20vw',sm:'-15vw',md:'-5vw',xl:'5vw'}}
     minH={{base:'60vw',sm:'50vw', md:'30vw', xl:'0vw'}}
     minW={{base:'60vw',sm:'50vw', md:'30vw', xl:'0vw'}}
     w={'35vw'}
