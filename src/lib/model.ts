@@ -17,15 +17,15 @@ export function loadGLTFModel(
       gltf => {
         const obj = gltf.scene
         obj.name = 'ThreeModel'
-        obj.position.y = 11
+        obj.position.y = 10
         obj.position.x = 0
         obj.position.z = 0
-        obj.rotateX(0.2)
-        obj.rotateY(0.3)
-        obj.rotateZ(1.3)
+        obj.rotateX(-0.35)
+        obj.rotateY(0.2)
+        obj.rotateZ(0.35)
         obj.receiveShadow = receiveShadow
         obj.castShadow = castShadow
-        obj.scale.set( .125, .125, .125 );
+        obj.scale.set( 2, 2, 2 );
         scene.add(obj)
 
         obj.traverse(function (child:any) {

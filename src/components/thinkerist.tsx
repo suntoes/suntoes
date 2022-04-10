@@ -76,16 +76,16 @@ const Thinkerist  = () => {
       renderer.shadowMap.type = THREE.PCFSoftShadowMap; // default THREE.PCFShadowMap
 
       //Create a DirectionalLight and turn on shadows for the light
-      const light = new THREE.DirectionalLight( 0xeaeaea, 2 );
-      light.position.set( -2, 4, -2 ); //default; light shining from top
+      const light = new THREE.DirectionalLight( 0xeaeaea, 3 );
+      light.position.set( -4, 10, 4 ); //default; light shining from top
       light.castShadow = true; // default false
       scene.add( light );
 
       //Set up shadow properties for the light
       light.shadow.mapSize.width = 512; // default
       light.shadow.mapSize.height = 512; // default
-      light.shadow.camera.near = 0.5; // default
-      light.shadow.camera.far = 500; // default
+      light.shadow.camera.near = 0.1; // default
+      light.shadow.camera.far = 2000; // default
 
       const ambientLight = new THREE.AmbientLight(0x525252, 1)
       scene.add(ambientLight)
@@ -95,7 +95,7 @@ const Thinkerist  = () => {
       controls.target = target
       setControls(controls)
 
-      loadGLTFModel(scene, 'keyboard.glb', {
+      loadGLTFModel(scene, 'merryg.glb', {
         receiveShadow: true,
         castShadow: true
       }).then(() => {

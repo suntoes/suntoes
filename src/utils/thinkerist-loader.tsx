@@ -28,14 +28,12 @@ export const ThinkeristContainer = forwardRef(({ children }:any, ref:any) => (
     zIndex={8}
     justifyContent={'center'}
     alignItems={'center'}
-    ml={{base:'-15vw',sm:'-15vw',md:'-5vw',xl:'5vw'}}
-    minH={{base:'60vw',sm:'50vw', md:'30vw', xl:'0vw'}}
-    minW={{base:'60vw',sm:'50vw', md:'30vw', xl:'0vw'}}
-    w={'35vw'}
-    h={'35vw'}
-    maxW={'400px'}
-    maxH={'400px'}
-    pointerEvents={'none'}
+    ml={{base:'-15vw',sm:'-20',md:'-16',xl:'-16'}}
+    mt={{base:-200, xl: -225}}
+    w={'50vw'}
+    h={'50vw'}
+    maxW={'350px'}
+    maxH={'350px'}
   >
     {children}
   </Box>
