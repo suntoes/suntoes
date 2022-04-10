@@ -20,6 +20,7 @@ function App() {
             position={'fixed'}
             left={0}
             top={'60vh'}
+            pointerEvents={'none'}
           ><Thinkerist />
           </Container>
       </Suspense>
