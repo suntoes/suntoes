@@ -38,8 +38,8 @@ function Post({arr=[]}) {
               <Image 
                 boxSize={{base: 12, sm: 20}}
 
-                alt={Object.hasOwn(obj, 'title') ? obj.title + ' pic' : "null" }
-                src={Object.hasOwn(obj, 'img') ? obj.img : "" }/>
+                alt={'title' in obj ? obj.title + ' pic' : "null" }
+                src={'img' in obj ? obj.img : "" }/>
 
             </Box>
             <Box 
@@ -51,7 +51,7 @@ function Post({arr=[]}) {
                 spacing={'2px'}  
                 mb={2}>
 
-                {Object.hasOwn(obj, 'title') &&
+                {'title' in obj &&
                   (
                   <Heading 
                     lineHeight={0.8}
@@ -59,7 +59,7 @@ function Post({arr=[]}) {
                     mb={0}>
                     {obj.title}
                     {
-                      (Object.hasOwn(obj, 'current') && obj.current) &&
+                      ('current' in obj && obj.current) &&
                       (
                         <>
                           {' '}
@@ -77,7 +77,7 @@ function Post({arr=[]}) {
                   )
                 }
 
-                {Object.hasOwn(obj, 'sub') &&
+                {'sub' in obj &&
                   (
                     <Text 
                       lineHeight={1} 
@@ -87,7 +87,7 @@ function Post({arr=[]}) {
                   )
                 }
 
-                {Object.hasOwn(obj, 'tags') &&
+                {'tags' in obj &&
                   (
                     <Box pt={1}>
                       {obj.tags.map((t:String) => (
@@ -107,13 +107,13 @@ function Post({arr=[]}) {
 
               </Stack>
               
-              {Object.hasOwn(obj, 'text') &&
+              {'text' in obj &&
                 (
                   <Paragraph>{obj.text}</Paragraph>
                 )
               }
 
-              {Object.hasOwn(obj, 'link') &&
+              {'link' in obj &&
                 (
                   <Box
                   fontWeight={500}
