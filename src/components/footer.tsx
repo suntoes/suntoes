@@ -12,7 +12,7 @@ function Footer() {
             w='100%'>
             <Stack alignItems={'center'}>
                 <Text textAlign={'center'} mb={5}>
-                    Bored? visit merry go ship{' '}
+                    Bored? visit merry go ship's{' '}
                     <Link href="https://www.artstation.com/taj_tajima" target={'_blank'}>3d creator</Link>
                     {' '}or my site's{' '}<Link href="https://www.craftz.dog/" target={'_blank'}>inspiration</Link>
                 </Text>
