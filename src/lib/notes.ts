@@ -68,7 +68,7 @@ const projects = [
           },
           {
             name: 'Live demo',
-            href: 'https://github.com/suntoes/diw4'
+            href: 'https://diw4.herokuapp.com/'
           }
         ],
     },
@@ -112,8 +112,8 @@ const projects = [
             href: 'https://sudoku-matrix.herokuapp.com/'
           }
         ],
-      },
-      {
+    },
+    {
         img: 'https://raw.githubusercontent.com/suntoes/ez-tetris-online/master/utils/ez-tetris.jpg',
         title: 'ez tetris online',
         tags: [
@@ -134,8 +134,8 @@ const projects = [
             href: 'https://ez-tetris-online.suntoes.repl.co/'
           }
         ],
-      },
-      {
+    },
+    {
         img: 'https://raw.githubusercontent.com/suntoes/ez-snek-game/master/resources/logo.png',
         title: 'ez snek online',
         tags: [
@@ -160,8 +160,8 @@ const projects = [
             href: 'https://ez-snek-online.suntoes.repl.co/'
           }
         ],
-      },
-      {
+    },
+    {
         img: 'https://raw.githubusercontent.com/suntoes/suntoes/master/public/m.png',
         title: 'my portfolio',
         tags: [
@@ -177,7 +177,7 @@ const projects = [
             href: 'https://github.com/suntoes/suntoes'
           }
         ],
-      }
+    }
 ]
 
 const trainings = [
