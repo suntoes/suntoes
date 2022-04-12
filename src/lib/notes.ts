@@ -50,6 +50,28 @@ const experiences = [
 ]
 
 const projects = [
+	{
+        img: 'https://raw.githubusercontent.com/suntoes/burgor/master/client/public/burgor.png',
+        title: 'burgor',
+        tags: [
+          'MERN Stack',
+          'chakra-ui',
+          'framer-motion',
+          'swiper.js',
+          'three.js'
+        ],
+        text: 'Tried a single-day MERN stack website challenge. The result is simple but compact in features and responsive in layout.',
+        link: [
+          {
+            name: 'Github',
+            href: 'https://github.com/suntoes/burgor'
+          },
+          {
+            name: 'Live demo',
+            href: 'https://burgor.herokuapp.com/'
+          }
+        ],
+    },
     {
         img: 'https://raw.githubusercontent.com/suntoes/diw4/master/client/public/icon.png',
         title: 'diw4',
@@ -60,7 +82,7 @@ const projects = [
           'framer-motion',
           'three.js'
         ],
-        text: 'A very simple demo of create & read scroller app. I plan to add more features in future.',
+        text: 'A very simple demo of create & read scroller app. I plan experiment and add more features in future.',
         link: [
           {
             name: 'Github',
