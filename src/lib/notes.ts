@@ -60,7 +60,7 @@ const projects = [
           'swiper.js',
           'three.js'
         ],
-        text: 'Tried a single-day MERN stack website challenge. The result is simple but compact in features and responsive in layout.',
+        text: 'A website demo of burger shop made with MERN stack done in a single day. The result is simple but compact in features and responsive in layout.',
         link: [
           {
             name: 'Github',
