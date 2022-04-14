@@ -20,7 +20,7 @@ function Id() {
                     <FaAt /><Text>mar.suntoes@gmail.com</Text>
                   </Stack>
                   <Stack direction={'row'} mt={7} justifyContent={'center'} fontSize={14}>
-                    <Text fontWeight={700}>シンプルイズベスト</Text>
+                    <Text fontWeight={700}>less is more\nシンプルイズベスト</Text>
                   </Stack>
                   <Stack direction={'row'} mt={6} mb={1} justifyContent={'center'} fontSize={14}>
                     <Link href='https://sayout.me/say/suntoes' target={'_blank'} color="#777" fontWeight={700}>
