@@ -10,13 +10,14 @@ type Children = {
 
 function NavBar({children}:Children) {
     const location = useLocation();
-    const path = location.pathname;
     const [page, setPage] = useState(0);
 
     useEffect(()=>{
-        if(path === '/trainings') setPage(2);
-        if(path === '/projects') setPage(1);
-    }, [])
+        const path = location.pathname;
+        if(path === '/trainings') return setPage(2);
+        if(path === '/projects') return setPage(1);
+        setPage(0);
+    }, [location])
 
     return(
         <>
