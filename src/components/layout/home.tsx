@@ -16,7 +16,6 @@ function Home({page = 0}) {
         minW={{base: 200, sm: 343}}
         pl={{base:10, sm:10, md: 0}}
         pr={{base:10, sm:10, md: 0}}
-        mt={6}
         mb={0}
         >
         <Post 
