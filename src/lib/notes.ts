@@ -25,20 +25,21 @@ const sample = [
 
 const experiences = [
   {
-    img: 'https://raw.githubusercontent.com/suntoes/suntoes/master/public/homeoffice.jpg',
-    title: 'Freelance Web Developer',
+    img: 'https://drive.google.com/uc?export=view&id=1JdzmcSOlmmhB8b9sgk8SR2JbALYfRU01',
+    title: 'Web Developer',
     current: true,
-    sub: 'Fiverr / Upwork / Reddit / etc.',
+    sub: 'Noblemen LLC',
     tags: [
       'Programming',
-      'Web Development'
+      'Web Development',
+      'MERN Stack'
     ],
-    text: `After 5 months of self-teaching, I am now commencing a programming gig (Mar. 2022 – Present) • Developed a custom form site that receives strings, image and video then automates the input data in a mail to client's email`
+    text: `My first contractual job in web development, as a freshman college student (April. 2022 – Present)`
   },
   {
     img: 'https://raw.githubusercontent.com/suntoes/suntoes/master/public/comp-tech%20ad.jpg',
     title: 'PC Technician, Self-Employed',
-    current: true,
+    current: false,
     sub: 'Computer Repair Home Service',
     tags: [
       'Computer Diagnostics',
