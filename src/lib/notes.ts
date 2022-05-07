@@ -25,7 +25,7 @@ const sample = [
 
 const experiences = [
   {
-    img: 'https://drive.google.com/uc?export=view&id=1JdzmcSOlmmhB8b9sgk8SR2JbALYfRU01',
+    img: 'https://raw.githubusercontent.com/suntoes/suntoes/master/public/Noblemen.jpg',
     title: 'Web Developer',
     current: true,
     sub: 'Noblemen LLC',
@@ -34,7 +34,7 @@ const experiences = [
       'Web Development',
       'MERN Stack'
     ],
-    text: `My first contractual job in web development, as a freshman college student (April. 2022 – Present)`
+    text: `Based in Arizona, USA, I received my very first remote and contractual job in web development, as a freshman college student (April. 2022 – Present)`
   },
   {
     img: 'https://raw.githubusercontent.com/suntoes/suntoes/master/public/comp-tech%20ad.jpg',
