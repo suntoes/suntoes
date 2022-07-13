@@ -1,3 +1,7 @@
+import noblemenJpg from "../assets/Noblemen.jpg"
+import compTechAd from "../assets/comp-tech ad.jpg"
+import fccIcon from "../assets/fcc icon.png"
+
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const sample = [
     {
@@ -25,7 +29,7 @@ const sample = [
 
 const experiences = [
   {
-    img: 'https://raw.githubusercontent.com/suntoes/suntoes/master/public/Noblemen.jpg',
+    img: noblemenJpg,
     title: 'Web Developer',
     current: true,
     sub: 'Noblemen LLC',
@@ -37,7 +41,7 @@ const experiences = [
     text: `Based in Arizona, USA, I received my very first remote and contractual job in web development, as a freshman college student (April. 2022 – Present)`
   },
   {
-    img: 'https://raw.githubusercontent.com/suntoes/suntoes/master/public/comp-tech%20ad.jpg',
+    img: compTechAd,
     title: 'PC Technician, Self-Employed',
     current: false,
     sub: 'Computer Repair Home Service',
@@ -205,7 +209,7 @@ const projects = [
 
 const trainings = [
     {
-      img: 'https://raw.githubusercontent.com/suntoes/suntoes/master/public/fcc%20icon.png',
+      img: fccIcon,
       title: 'Back End Development and APIs',
       sub: 'in freeCodeCamp.org/learn',
       tags: [
@@ -222,7 +226,7 @@ const trainings = [
       ],
     },
     {
-      img: 'https://raw.githubusercontent.com/suntoes/suntoes/master/public/fcc%20icon.png',
+      img: fccIcon,
       title: 'Front End Development Libraries',
       sub: 'in freeCodeCamp.org/learn',
       tags: [
@@ -239,7 +243,7 @@ const trainings = [
       ],
     },
     {
-      img: 'https://raw.githubusercontent.com/suntoes/suntoes/master/public/fcc%20icon.png',
+      img: fccIcon,
       title: 'Javascript Algorithms and Data Structures',
       sub: 'in freeCodeCamp.org/learn',
       tags: [
@@ -253,7 +257,7 @@ const trainings = [
       ],
     },
     {
-      img: 'https://raw.githubusercontent.com/suntoes/suntoes/master/public/fcc%20icon.png',
+      img: fccIcon,
       title: 'Responsive Web Design',
       sub: 'in freeCodeCamp.org/learn',
       tags: [
