@@ -38,7 +38,7 @@ const experiences = [
       'Web Development',
       'MERN Stack'
     ],
-    text: `Based in Arizona, USA, I received my very first remote and contractual job in web development, as a freshman college student (April. 2022 – Present)`
+    text: `Based in Arizona, USA, I received my very first remote and contractual job in web development, as a freshman college student (April. 2022 – Present) • Developed multiple admin web-app components and compositions with React, Redux and Axios • Emulated designated UI/UX designs from Figma with Ant Design framework for front-end development • Wrote RESTful APIs to be integrated to web applications with Node.js, Express and MongoDb`
   },
   {
     img: compTechAd,
