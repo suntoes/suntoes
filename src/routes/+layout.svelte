@@ -1,6 +1,5 @@
 <script>
 	import { fly } from 'svelte/transition';
-	import { onUpdate, useMount } from 'svelte';
 	import 'src/app.css';
 
 	import Nav from 'src/components/nav.svelte';
