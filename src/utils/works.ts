@@ -18,20 +18,20 @@ export const works = [
 		title: 'Works',
 		items: [
 			{
-				title: 'Saber Liquidation',
-				description: 'Startup fintech web app',
-				img: saberImg,
-				status: 'active',
-				pathname: 'https://saberliquidation.com/'
-				//pathname: '/works/saber-liquidation'
-			},
-			{
 				title: 'GiftCardX',
 				description: 'A crypto/fintech MVP app',
 				img: giftcardxImg,
 				status: 'in progress',
 				pathname: 'https://frontend-repo-lemon.vercel.app/'
 				//pathname: '/works/giftcardx'
+			},
+			{
+				title: 'Saber Liquidation',
+				description: 'Startup fintech web app',
+				img: saberImg,
+				status: 'active',
+				pathname: 'https://saberliquidation.com/'
+				//pathname: '/works/saber-liquidation'
 			},
 			{
 				title: 'Dash RD',
