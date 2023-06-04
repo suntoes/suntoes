@@ -37,7 +37,7 @@ export const works = [
 			},
 			{
 				title: 'Dash RD',
-				description: 'Contributor to 2 projects',
+				description: 'A digital development agency ',
 				img: dashRdImg,
 				status: 'active',
 				pathname: 'https://dashrd.com/'
@@ -45,17 +45,17 @@ export const works = [
 			},
 			{
 				title: 'MeTime',
-				description: 'Project via DashRD as maintainer',
+				description: 'Contributor via DashRD',
 				img: meTimeImg,
-				status: 'active',
+				status: 'in progress',
 				pathname: 'https://staging.metimehealing.com/'
 				//pathname: '/works/me-time'
 			},
 			{
 				title: 'Dulles Glass',
-				description: 'Project via DashRD as maintainer',
+				description: 'Contributor via DashRD',
 				img: dullesGlassImg,
-				status: 'active',
+				status: 'in progress',
 				pathname: 'https://staging.dullesglass.dashdev.tech/'
 				//pathname: '/works/dulles-glass'
 			},
@@ -63,7 +63,7 @@ export const works = [
 				title: 'y2 Digital',
 				description: 'Contributed /cases and /fpv',
 				img: y2DigitalImg,
-				status: 'in progress',
+				status: 'inactive',
 				pathname: 'https://y2.digital/fpv'
 				//pathname: '/works/y2-digital'
 			}
