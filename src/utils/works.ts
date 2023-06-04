@@ -63,7 +63,7 @@ export const works = [
 				title: 'y2 Digital',
 				description: 'Contributed /cases and /fpv',
 				img: y2DigitalImg,
-				status: 'inactive',
+				status: 'done',
 				pathname: 'https://y2.digital/fpv'
 				//pathname: '/works/y2-digital'
 			}
