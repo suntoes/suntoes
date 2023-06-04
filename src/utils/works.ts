@@ -1,6 +1,8 @@
 const saberImg = 'images/saber-liquidation.png';
 const giftcardxImg = 'images/giftcardx.png';
 const dashRdImg = 'images/dash-rd.png';
+const meTimeImg = 'images/me-time.png';
+const dullesGlassImg = 'images/dulles-glass.png';
 const y2DigitalImg = 'images/y2-digital.png';
 const gotgImg = 'images/game-of-the-gods.png';
 const ranPhImg = 'images/ran-online-ph.png';
@@ -40,6 +42,22 @@ export const works = [
 				status: 'active',
 				pathname: 'https://dashrd.com/'
 				//pathname: '/works/dash-rd'
+			},
+			{
+				title: 'MeTime',
+				description: 'Project via DashRD as maintainer',
+				img: meTimeImg,
+				status: 'active',
+				pathname: 'https://staging.metimehealing.com/'
+				//pathname: '/works/me-time'
+			},
+			{
+				title: 'Dulles Glass',
+				description: 'Project via DashRD as maintainer',
+				img: dullesGlassImg,
+				status: 'active',
+				pathname: 'https://staging.dullesglass.dashdev.tech/'
+				//pathname: '/works/dulles-glass'
 			},
 			{
 				title: 'y2 Digital',
