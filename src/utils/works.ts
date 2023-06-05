@@ -21,7 +21,7 @@ export const works = [
 		items: [
 			{
 				title: 'GiftCardX',
-				description: 'A crypto/fintech MVP app',
+				description: 'A giftcard to crypto MVP',
 				img: giftcardxImg,
 				status: 'in progress',
 				pathname: 'https://frontend-repo-lemon.vercel.app/'
@@ -29,7 +29,7 @@ export const works = [
 			},
 			{
 				title: 'Saber Liquidation',
-				description: 'Startup fintech web app',
+				description: 'A giftcard to cash MVP',
 				img: saberImg,
 				status: 'active',
 				pathname: 'https://saberliquidation.com/'
