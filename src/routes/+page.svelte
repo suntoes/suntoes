@@ -3,7 +3,7 @@
 	import Link from 'src/components/link.svelte';
 </script>
 
-<div class="w-full">
+<div class="w-full max-w-lg p-5">
 	<h1 class="text-8xl">
 		Yo, <span class="text-4xl">I'm Mar.</span>
 	</h1>

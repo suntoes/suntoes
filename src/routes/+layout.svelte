@@ -15,7 +15,7 @@
 	<main
 		in:fly={{ y: 100, duration: 250, delay: 250 }}
 		out:fly={{ y: 100, duration: 250 }}
-		class="mx-auto flex min-h-screen max-w-lg items-center justify-center p-5 pb-20"
+		class="mx-auto flex min-h-screen items-center justify-center pb-20"
 	>
 		<slot />
 	</main>
