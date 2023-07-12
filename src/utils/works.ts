@@ -8,6 +8,7 @@ const gotgImg = 'images/game-of-the-gods.png';
 const ranPhImg = 'images/ran-online-ph.png';
 const coffeeDojoImg = 'images/coffee-dojo_01.gif';
 const lumiFilmsImg = 'images/lumi-films.png';
+const anagogeImg = 'images/anagoge.png';
 const msb8BlueskyImg = 'images/msb8-bluesky-media.png';
 const ranMobileImg = 'images/ran-mobile-mobile.png';
 const ezTetrisImg = 'images/ez-tetris.png';
@@ -104,6 +105,14 @@ export const works = [
 				pathname:
 					'https://www.figma.com/file/Ltq0iqsrXNknjzLDpUV9Xz/lumifilms.sg-(Copy)?node-id=0%3A1&t=hO9ei6PuXo9V88vd-0'
 				//pathname: '/works/lumi-films'
+			},
+			{
+				title: 'Anagoge Podcast',
+				description: 'Podcast collection for Anagoge',
+				img: anagogeImg,
+				status: 'done',
+				pathname: 'https://anagoge-test.vercel.app/'
+				//pathname: '/works/anagoge'
 			}
 		]
 	},
