@@ -107,8 +107,8 @@ export const works = [
 				//pathname: '/works/lumi-films'
 			},
 			{
-				title: 'Anagoge Podcast',
-				description: 'Podcast collection for Anagoge',
+				title: 'Anagoge',
+				description: 'Anagoge podcast collection',
 				img: anagogeImg,
 				status: 'done',
 				pathname: 'https://anagoge-test.vercel.app/'
@@ -129,7 +129,7 @@ export const works = [
 			},
 			{
 				title: 'RAN Mobile',
-				description: 'Brand identity for a startpu',
+				description: 'Brand identity for a startup',
 				img: ranMobileImg,
 				status: 'done',
 				pathname: 'https://ran-mobile.com'
