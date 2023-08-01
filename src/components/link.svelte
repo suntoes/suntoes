@@ -13,7 +13,7 @@
 		'cursor-pointer hover:opacity-50',
 		!!underline &&
 			(underline === 'hover' ? 'hover:underline' : 'underline') +
-				' decoration-[2px] underline-offset-[5px]'
+				'decoration-[2px] underline-offset-[3px] md:underline-offset-[5px]'
 	)}
 >
 	<slot />
