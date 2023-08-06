@@ -14,7 +14,6 @@
 	</p>
 	<p class="mb-2">
 		Now currently a developer for{' '}
-		<Link href="https://saberliquidation.com/">Saber Liquidation</Link>,{' '}
 		<Link href="https://frontend-repo-lemon.vercel.app/">GiftCardX</Link>{' '}
 		and <Link href="https://dashrd.com/">Dash RD</Link>, a contributor to{' '}
 		<Link href="https://y2.digital/">y2 Digital</Link>, and a computer science student at <Link
