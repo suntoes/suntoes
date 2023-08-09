@@ -8,17 +8,21 @@
 
 <article class="flex w-full max-w-lg flex-col gap-5 p-5 pb-40 pt-10 sm:pb-5">
 	<section>
-		<h1 class="flex items-end text-8xl">
-			<span>Yo, <span class="text-4xl">I'm Mar.</span></span>
-			<img src="/images/this-guy.png" alt="suntoes" class="mb-4 h-40 drop-shadow-md" />
+		<h1 class="relative mb-1 flex h-40 items-end text-8xl text-white">
+			<span class="z-10 px-4">Yo, <span class="text-4xl">I'm Mar.</span></span>
+			<img
+				src="/images/this-guy.png"
+				alt="suntoes"
+				class="absolute w-full object-cover shadow-lg"
+			/>
 		</h1>
 		<p class="mb-2 indent-4">
-			I'm a developer and a BSCS student from the Philippines. After self-learning for 5 months, I
-			started accepting
+			A developer and a BSCS student. After self-learning for 5 months, I started accepting
 			<Link className="text-blue-600" underline="hover" href="/works">projects</Link> as a freelancer.
-			I'm front-end heavy with just the right amount of knowledge and experience to back-end.
+			I'm front-end heavy with just the right amount of knowledge and experience to back-end. React is
+			what I use with TypeScript, but this site is made with Svelte for fun.
 		</p>
-		<div class="mt-3 flex justify-center">
+		<div class="-mb-1 mt-3 flex justify-center">
 			<Link href="/works">
 				<button class="bg-yellow-500 px-1 text-xl text-white"> &gt; View my works </button>
 			</Link>
@@ -41,8 +45,9 @@
 		<div class="flex gap-4">
 			<p class="font-bold">Apr 2022</p>
 			<p class="flex-1">
-				Worked at <Link className="text-blue-600" underline="hover" href="https://www.noblemen.com/">Noblemen LLC</Link> as a
-				Junior Dev
+				Worked at <Link className="text-blue-600" underline="hover" href="https://www.noblemen.com/"
+					>Noblemen LLC</Link
+				> as a Junior Dev
 			</p>
 		</div>
 		<div class="flex gap-4">
@@ -52,19 +57,29 @@
 		<div class="flex gap-4">
 			<p class="font-bold">Feb 2023</p>
 			<p class="flex-1">
-				Worked at <Link className="text-blue-600" underline="hover" href="https://www.saberliquidation.com/">Saber Liquidation</Link>
+				Worked at <Link
+					className="text-blue-600"
+					underline="hover"
+					href="https://www.saberliquidation.com/">Saber Liquidation</Link
+				>
 			</p>
 		</div>
 		<div class="flex gap-4">
 			<p class="font-bold">Mar 2023 to present</p>
 			<p class="flex-1">
-				Works at <Link className="text-blue-600" underline="hover" href="https://dashrd.com">Dash RD</Link>
+				Works at <Link className="text-blue-600" underline="hover" href="https://dashrd.com"
+					>Dash RD</Link
+				>
 			</p>
 		</div>
 		<div class="flex gap-4">
 			<p class="font-bold">Jun 2023 to present</p>
 			<p class="flex-1">
-				Works at <Link className="text-blue-600" underline="hover" href="https://frontend-repo-lemon.vercel.app">GiftCardX</Link>
+				Works at <Link
+					className="text-blue-600"
+					underline="hover"
+					href="https://frontend-repo-lemon.vercel.app">GiftCardX</Link
+				>
 			</p>
 		</div>
 	</section>

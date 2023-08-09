@@ -1,7 +1,7 @@
 <script lang="ts">
 	import cn from 'classnames';
 	export let title: string;
-	export let className = "";
+	export let className = '';
 </script>
 
 <div class={cn('max-w-md', className)}>

@@ -16,7 +16,7 @@
 		{#each works as work, index}
 			<WorkList
 				title={work.title}
-				className={(index % 2) ? 'row-span-2 flex flex-col justify-center' : ''}
+				className={index % 2 ? 'row-span-2 flex flex-col justify-center' : ''}
 			>
 				{#each work.items as item}
 					<WorkItem
