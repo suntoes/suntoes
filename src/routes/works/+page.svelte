@@ -5,7 +5,7 @@
 </script>
 
 <article class="w-full p-5 pb-40 sm:w-fit sm:pb-20">
-	<div class="pb-5 pt-5 text-right sm:ml-4">
+	<div class="pb-5 pt-5 text-center sm:ml-4">
 		*<span class="text-sky-600 dark:text-sky-400">Done</span>,{' '}
 		<span class="text-lime-600 dark:text-lime-400">Active</span>,{' '}
 		<span class="text-yellow-600 dark:text-yellow-400"> In progress </span>

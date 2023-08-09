@@ -26,7 +26,7 @@
 </script>
 
 {#if loaded}
-	<img {src} {alt} class={className} />
+	<img {src} {alt} class={cn(className, ' rounded-xl')} />
 {:else if failed}
 	<div class={cn(className, '!shadow-none !drop-shadow-none')}>
 		<svg
