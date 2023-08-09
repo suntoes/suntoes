@@ -54,7 +54,7 @@
 		</div>
 		<div class="-mt-5 flex w-fit flex-col justify-end pt-10 sm:w-auto sm:pt-0">
 			<div class="relative">
-				<p {id} class="w-fit -translate-x-8 px-1 text-xl sm:translate-x-0">{title}</p>
+				<p {id} class="w-fit -translate-x-8 px-1 text-xl font-semibold sm:translate-x-0">{title}</p>
 				<Motion
 					let:motion
 					initial={{ width: 0 }}
@@ -67,7 +67,7 @@
 						use:motion
 					>
 						<div id="gago" style="min-width: {titleWidth}px">
-							<p class={cn('w-fit px-1 text-xl text-white', bgColor)}>{title}</p>
+							<p class={cn('w-fit px-1 text-xl font-semibold text-white', bgColor)}>{title}</p>
 						</div>
 					</div>
 				</Motion>

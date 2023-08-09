@@ -8,7 +8,7 @@
 <article class="flex w-full max-w-lg flex-col gap-5 px-5 py-10">
 	<h1 class="mb-2">
 		<Link className="text-blue-600" underline="hover" href="/works">Works</Link> &gt;
-		<span class="text-4xl">{work.title}</span>
+		<span class="text-4xl font-semibold">{work.title}</span>
 	</h1>
 	<section>
 		<p class="mb-2 indent-4">{work.description || work.outline}</p>

@@ -9,7 +9,7 @@
 <article class="flex w-full max-w-lg flex-col gap-5 p-5 pb-40 pt-10 sm:pb-5">
 	<section>
 		<h1 class="relative mb-1 flex h-40 items-end text-8xl text-white">
-			<span class="z-10 px-4">Yo, <span class="text-4xl">I'm Mar.</span></span>
+			<span class="z-10 px-4">Yo, <span class="text-4xl font-semibold">I'm Mar.</span></span>
 			<img
 				src="/images/this-guy.png"
 				alt="suntoes"
@@ -24,12 +24,14 @@
 		</p>
 		<div class="-mb-1 mt-3 flex justify-center">
 			<Link href="/works">
-				<button class="bg-yellow-500 px-1 text-xl text-white"> &gt; View my works </button>
+				<button class="bg-yellow-500 px-1 text-xl font-semibold text-white">
+					&gt; View my works
+				</button>
 			</Link>
 		</div>
 	</section>
 	<section>
-		<p class="mb-1 text-4xl">Bio</p>
+		<p class="mb-1 text-4xl font-semibold">Bio</p>
 		<div class="flex gap-4">
 			<p class="font-bold">Aug 2002</p>
 			<p class="flex-1">Born in Jeddah, K.S.A.</p>
@@ -85,7 +87,7 @@
 	</section>
 
 	<section>
-		<p class="mb-1 text-4xl">I &lt;3</p>
+		<p class="mb-1 text-4xl font-semibold">I &lt;3</p>
 		<p class="indent-4">
 			Coffee, Sleeping, Manga, Anime/TV/Film Series,
 			<Link className="text-blue-600" underline="hover" href="https://www.instagram.com/suntoez/"
@@ -95,7 +97,7 @@
 	</section>
 
 	<section class="mb-40 sm:mb-0">
-		<p class="mb-1 text-4xl">On the web</p>
+		<p class="mb-1 text-4xl font-semibold">On the web</p>
 		<div class="mb-3 mt-1 flex flex-col gap-1">
 			<Link
 				underline="hover"
