@@ -4,16 +4,17 @@
 	import FaGithub from 'svelte-icons/fa/FaGithub.svelte';
 	import WorkItem from 'src/components/work-item.svelte';
 	import Link from 'src/components/link.svelte';
+	import Img from 'src/components/img.svelte';
 </script>
 
 <article class="flex w-full max-w-lg flex-col gap-5 p-5 pb-40 pt-10 sm:pb-5">
 	<section>
 		<h1 class="relative mb-1 flex h-40 items-end text-8xl text-white">
 			<span class="z-10 px-4">Yo, <span class="text-4xl font-semibold">I'm Mar.</span></span>
-			<img
+			<Img
 				src="/images/this-guy.png"
 				alt="suntoes"
-				class="absolute w-full object-cover shadow-lg"
+				className="absolute w-full object-cover shadow-lg"
 			/>
 		</h1>
 		<p class="mb-2 indent-4">

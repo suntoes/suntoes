@@ -1,5 +1,6 @@
 <script>
 	import Link from 'src/components/link.svelte';
+	import Img from 'src/components/img.svelte';
 
 	export let data;
 	const { work } = data;
@@ -31,7 +32,7 @@
 
 		{#each work.img as img}
 			<div class="aspect-w-16 aspect-h-9 w-full">
-				<img src={img} alt={work.title} class="w-full object-cover shadow-lg" />
+				<Img src={img} alt={work.title} className="w-full object-cover shadow-lg" />
 			</div>
 		{/each}
 	</section>

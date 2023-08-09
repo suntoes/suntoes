@@ -4,6 +4,7 @@
 	import cn from 'classnames';
 
 	import Link from 'src/components/link.svelte';
+	import Img from 'src/components/img.svelte';
 
 	export let id: string;
 	export let title: string;
@@ -45,10 +46,10 @@
 		on:blur={() => (hovered = false)}
 	>
 		<div class="aspect-w-16 aspect-h-9 min-w-[150px] max-w-[150px] flex-1 sm:max-w-full sm:pl-4">
-			<img
+			<Img
 				src={img}
 				alt={title}
-				class="h-24 w-full object-cover shadow-lg shadow-sm md:h-28"
+				className="h-24 w-full object-cover shadow-lg shadow-sm md:h-28"
 				style="opacity: {hovered ? 0.5 : 1}"
 			/>
 		</div>
