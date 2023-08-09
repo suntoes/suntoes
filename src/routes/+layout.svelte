@@ -12,8 +12,8 @@
 <Nav url={data.url} />
 {#key data.url}
 	<main
-		in:fly={{ y: 100, duration: 250, delay: 250 }}
-		out:fly={{ y: 100, duration: 250 }}
+		in:fly={{ y: 25, duration: 250, delay: 250 }}
+		out:fly={{ y: 25, duration: 250 }}
 		class="mx-auto flex min-h-screen items-center justify-center"
 	>
 		<slot />
