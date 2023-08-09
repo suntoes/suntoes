@@ -41,7 +41,7 @@
 		<div class="flex gap-4">
 			<p class="font-bold">Apr 2022</p>
 			<p class="flex-1">
-				Worked at <Link className="text-blue-600" underline="hover" href="">Noblemen LLC</Link> as a
+				Worked at <Link className="text-blue-600" underline="hover" href="https://www.noblemen.com/">Noblemen LLC</Link> as a
 				Junior Dev
 			</p>
 		</div>
@@ -52,19 +52,19 @@
 		<div class="flex gap-4">
 			<p class="font-bold">Feb 2023</p>
 			<p class="flex-1">
-				Worked at <Link className="text-blue-600" underline="hover" href="">Saber Liquidation</Link>
+				Worked at <Link className="text-blue-600" underline="hover" href="https://www.saberliquidation.com/">Saber Liquidation</Link>
 			</p>
 		</div>
 		<div class="flex gap-4">
 			<p class="font-bold">Mar 2023 to present</p>
 			<p class="flex-1">
-				Works at <Link className="text-blue-600" underline="hover" href="">Dash RD</Link>
+				Works at <Link className="text-blue-600" underline="hover" href="https://dashrd.com">Dash RD</Link>
 			</p>
 		</div>
 		<div class="flex gap-4">
 			<p class="font-bold">Jun 2023 to present</p>
 			<p class="flex-1">
-				Works at <Link className="text-blue-600" underline="hover" href="">GiftCardX</Link>
+				Works at <Link className="text-blue-600" underline="hover" href="https://frontend-repo-lemon.vercel.app">GiftCardX</Link>
 			</p>
 		</div>
 	</section>
