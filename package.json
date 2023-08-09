@@ -36,5 +36,8 @@
 		"vite": "^4.3.0",
 		"vite-tsconfig-paths": "^4.2.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"three": "^0.155.0"
+	}
 }

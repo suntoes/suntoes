@@ -4,28 +4,31 @@
 	import { works } from 'src/utils/works';
 </script>
 
-<div class="p-5">
-	<div class="pb-10 pt-5 sm:ml-4">
+<article class="w-full p-5 pb-40 sm:w-fit sm:pb-20">
+	<div class="pb-5 pt-5 text-right sm:ml-4">
 		*<span class="text-sky-600 dark:text-sky-400">Done</span>,{' '}
 		<span class="text-lime-600 dark:text-lime-400">Active</span>,{' '}
 		<span class="text-yellow-600 dark:text-yellow-400"> In progress </span>
 		, and <span class="text-red-600 dark:text-red-400">Inactive</span>
 		.
 	</div>
-	<div class="grid grid-cols-1 gap-10 md:grid-cols-2 xl:grid-cols-3 xl:gap-20">
-		{#each works as work}
-			<WorkList title={work.title}>
+	<div class="mb-40 grid grid-cols-1 gap-10 sm:mb-0 md:grid-cols-2 xl:gap-20">
+		{#each works as work, index}
+			<WorkList
+				title={work.title}
+				className={(index % 2) ? 'row-span-2 flex flex-col justify-center' : ''}
+			>
 				{#each work.items as item}
 					<WorkItem
-						id={'item-' + item.pathname.replace(/\//g, '')}
+						id={'item-' + item.id}
 						title={item.title}
-						description={item.description}
-						img={item.img}
+						description={item.outline}
+						img={item.img[0]}
 						status={item.status}
-						pathname={item.pathname}
+						pathname={'/works/' + item.id}
 					/>
 				{/each}
 			</WorkList>
 		{/each}
 	</div>
-</div>
+</article>

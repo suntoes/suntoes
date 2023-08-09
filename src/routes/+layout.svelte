@@ -3,7 +3,6 @@
 	import 'src/app.css';
 
 	import Nav from 'src/components/nav.svelte';
-
 	export let data;
 </script>
 
@@ -15,7 +14,7 @@
 	<main
 		in:fly={{ y: 100, duration: 250, delay: 250 }}
 		out:fly={{ y: 100, duration: 250 }}
-		class="mx-auto flex min-h-screen items-center justify-center pb-20"
+		class="mx-auto flex min-h-screen items-center justify-center"
 	>
 		<slot />
 	</main>

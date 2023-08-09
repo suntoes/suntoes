@@ -4,7 +4,7 @@
 	import Link from 'src/components/link.svelte';
 </script>
 
-<div class="w-full">
+<div class="w-full max-w-md">
 	<h1 class="mb-2 text-6xl">
 		404, <span class="leading-0 text-3xl">Not found.</span>
 	</h1>
