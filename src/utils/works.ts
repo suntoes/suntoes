@@ -108,7 +108,7 @@ export const works: WorkType[] = [
 			{
 				title: 'Saber Liquidation',
 				outline: `A giftcard to cash MVP developed with a small team. `,
-				description: `An MVP web app for a startup providing fast and secured giftcard-to-cash conversion services developed with a small team on restricted schedule.`,
+				description: `Developed an MVP web app for a startup providing fast and secured giftcard-to-cash conversion services developed with a small team on restricted schedule as freelancer. Proceeds to become a full-stack developer for the startup and build internal tools.`,
 				img: [saberImg, saberImg01, saberImg02, saberImg03, saberImg04, saberImg05],
 				status: 'active',
 				stack: [
@@ -128,8 +128,16 @@ export const works: WorkType[] = [
 				title: 'Dash RD',
 				outline: `A digital development agency where I work as full-stack`,
 				description:
-					'A digital development agency where I interned for a month and then got hired as full-stack freelancer. I have the chance to maintain and contribute to cool projects such as the website of MeTime Healing and Dulles Glass.',
-				img: [dashRdImg, meTimeImg, dullesGlassImg],
+					'A digital development agency where I interned for a month and then got hired as full-stack developer. I have the chance to maintain and contribute to cool projects such as the website of MeTime Healing and Dulles Glass.',
+				img: [
+					dashRdImg,
+					meTimeImg,
+					dullesGlassImg,
+					meTimeImg01,
+					dullesGlassImg01,
+					meTimeImg02,
+					dulles - glass_03
+				],
 				status: 'active',
 				stack: [
 					'Next.js',
@@ -142,44 +150,6 @@ export const works: WorkType[] = [
 				],
 				id: 'dash-rd',
 				link: 'https://dashrd.com/'
-			},
-			{
-				title: 'MeTime',
-				outline:
-					'Web platform providing virtual mental well-being services. A web project of Dash RD',
-				description: '',
-				img: [meTimeImg, meTimeImg01, meTimeImg02],
-				status: 'in progress',
-				stack: [
-					'Next.js',
-					'Node.js',
-					'Strapi',
-					'Chakra-UI',
-					'Framer Motion',
-					'GraphQL',
-					'Firebase'
-				],
-				id: 'me-time',
-				link: 'https://staging.metimehealing.com/'
-			},
-			{
-				title: 'Dulles Glass',
-				outline:
-					'Web store for an advanced retailer and manufacturer for custom-cut glass. A web project of Dash RD',
-				description: '',
-				img: [dullesGlassImg, dullesGlassImg01, dullesGlassImg02, dullesGlassImg03],
-				status: 'in progress',
-				stack: [
-					'Next.js',
-					'Node.js',
-					'Strapi',
-					'Chakra-UI',
-					'Framer Motion',
-					'GraphQL',
-					'Firebase'
-				],
-				id: 'dulles-glass',
-				link: 'https://staging.dullesglass.dashdev.tech/'
 			},
 			{
 				title: 'y2 Digital',
