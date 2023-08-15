@@ -136,7 +136,7 @@ export const works: WorkType[] = [
 					meTimeImg01,
 					dullesGlassImg01,
 					meTimeImg02,
-					dulles - glass_03
+          dullesGlassImg03
 				],
 				status: 'active',
 				stack: [
