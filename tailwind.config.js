@@ -5,6 +5,7 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
+				tnr: 'Times New Roman',
 				sans: 'Manrope, sans-serif'
 			}
 		}
