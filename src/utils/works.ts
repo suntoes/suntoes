@@ -17,7 +17,7 @@ const meTimeImg02 = '/images/me-time_02.png';
 
 const dullesGlassImg = '/images/dulles-glass.png';
 const dullesGlassImg01 = '/images/dulles-glass_01.png';
-const dullesGlassImg02 = '/images/dulles-glass_02.png';
+//const dullesGlassImg02 = '/images/dulles-glass_02.png';
 const dullesGlassImg03 = '/images/dulles-glass_03.png';
 
 const y2DigitalImg = '/images/y2-digital.png';
@@ -27,6 +27,12 @@ const y2DigitalImg02 = '/images/y2-digital_02.png';
 const gotgImg = '/images/game-of-the-gods.png';
 const gotgImg01 = '/images/game-of-the-gods_01.png';
 const gotgImg02 = '/images/game-of-the-gods_02.png';
+
+const tiagoImg = '/images/tiago.png';
+const tiagoImg01 = '/images/tiago_01.png';
+const tiagoImg02 = '/images/tiago_02.png';
+const tiagoImg03 = '/images/tiago_03.png';
+const tiagoImg04 = '/images/tiago_04.png';
 
 const ranPhImg = '/images/ran-online-ph.png';
 const ranPhImg01 = '/images/ran-online-ph_01.png';
@@ -136,7 +142,7 @@ export const works: WorkType[] = [
 					meTimeImg01,
 					dullesGlassImg01,
 					meTimeImg02,
-          dullesGlassImg03
+					dullesGlassImg03
 				],
 				status: 'active',
 				stack: [
@@ -175,6 +181,16 @@ export const works: WorkType[] = [
 				stack: ['React', 'Three.js'],
 				id: 'game-of-the-gods',
 				link: 'https://game-of-the-gods.vercel.app/'
+			},
+			{
+				title: 'Tiago Faleiro',
+				outline: 'A coaching website for an independent psychologist',
+				description: '',
+				img: [tiagoImg, tiagoImg01, tiagoImg02, tiagoImg03, tiagoImg04],
+				status: 'done',
+				stack: ['React', 'TailwindCSS', 'Framer Motion'],
+				id: 'tiago-faleiro',
+				link: 'https://tiago-faleiro.vercel.app/'
 			},
 			{
 				title: 'RAN Online PH',
@@ -230,7 +246,7 @@ export const works: WorkType[] = [
 		title: 'Olds',
 		items: [
 			{
-				title: 'MSB8 - Bluesky Media',
+				title: 'Bluesky Media',
 				outline: '.PSD to HTML conversion.',
 				description: '',
 				img: [msb8BlueskyImg],

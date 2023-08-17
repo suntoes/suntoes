@@ -49,7 +49,7 @@
 			<Img
 				src={img}
 				alt={title}
-				className="h-24 w-full object-cover shadow-lg shadow-sm md:h-28"
+				className="h-24 w-full object-cover shadow-md border-[1px] border-gray-100 md:h-28"
 				style="opacity: {hovered ? 0.5 : 1}"
 			/>
 		</div>
@@ -73,7 +73,7 @@
 					</div>
 				</Motion>
 			</div>
-			<p class="text-sm">{description}</p>
+			<p class="mt-2 text-sm sm:mt-1">{description}</p>
 		</div>
 	</div>
 </Link>

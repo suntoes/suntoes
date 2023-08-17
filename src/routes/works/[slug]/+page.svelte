@@ -6,7 +6,7 @@
 	const { work } = data;
 </script>
 
-<article class="flex w-full max-w-lg flex-col gap-5 px-5 py-10">
+<article class="flex w-full max-w-lg flex-col gap-5 px-10 py-10">
 	<h1 class="mb-2">
 		<Link className="text-blue-600" underline="hover" href="/works">Works</Link> &gt;
 		<span class="font-tnr text-4xl font-bold">{work.title}</span>
@@ -32,7 +32,11 @@
 
 		{#each work.img as img}
 			<div class="aspect-w-16 aspect-h-9 w-full">
-				<Img src={img} alt={work.title} className="w-full object-cover shadow-lg" />
+				<Img
+					src={img}
+					alt={work.title}
+					className="w-full object-cover border-[1px] border-gray-100 shadow-md"
+				/>
 			</div>
 		{/each}
 	</section>

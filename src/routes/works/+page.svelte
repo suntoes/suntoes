@@ -4,7 +4,7 @@
 	import { works } from 'src/utils/works';
 </script>
 
-<article class="w-full p-5 pb-40 sm:w-fit sm:pb-20">
+<article class="w-full p-10 pb-40 pt-5 sm:w-fit sm:pb-20">
 	<div class="pb-5 pt-5 text-center sm:ml-4">
 		*<span class="text-sky-600 dark:text-sky-400">Done</span>,{' '}
 		<span class="text-lime-600 dark:text-lime-400">Active</span>,{' '}

@@ -7,7 +7,7 @@
 	import Img from 'src/components/img.svelte';
 </script>
 
-<article class="flex w-full max-w-lg flex-col gap-5 p-5 pb-40 pt-10 sm:pb-5">
+<article class="flex w-full max-w-lg flex-col gap-5 p-10 pb-40 pt-5 sm:pb-5">
 	<section>
 		<h1 class="relative mb-1 flex h-40 items-end text-8xl text-white">
 			<span class="z-10 px-1 font-tnr">Yo, <span class="text-4xl font-bold">I'm Mar.</span></span>
