@@ -33,6 +33,7 @@ const tiagoImg01 = '/images/tiago_01.png';
 const tiagoImg02 = '/images/tiago_02.png';
 const tiagoImg03 = '/images/tiago_03.png';
 const tiagoImg04 = '/images/tiago_04.png';
+const tiagoImg05 = '/images/tiago_05.png';
 
 const ranPhImg = '/images/ran-online-ph.png';
 const ranPhImg01 = '/images/ran-online-ph_01.png';
@@ -186,7 +187,7 @@ export const works: WorkType[] = [
 				title: 'Tiago Faleiro',
 				outline: 'A coaching website for an independent psychologist',
 				description: '',
-				img: [tiagoImg, tiagoImg01, tiagoImg02, tiagoImg03, tiagoImg04],
+				img: [tiagoImg, tiagoImg01, tiagoImg02, tiagoImg03, tiagoImg04, tiagoImg05],
 				status: 'done',
 				stack: ['React', 'TailwindCSS', 'Framer Motion'],
 				id: 'tiago-faleiro',
