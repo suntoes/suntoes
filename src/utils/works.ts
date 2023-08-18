@@ -135,7 +135,7 @@ export const works: WorkType[] = [
 				title: 'Dash RD',
 				outline: `A digital development agency where I work as full-stack`,
 				description:
-					'A digital development agency where I interned for a month and then got hired as full-stack developer. I have the chance to maintain and contribute to cool projects such as the website of MeTime Healing and Dulles Glass.',
+					'A digital development agency where I interned for a month and then got hired as full-stack developer. I have the chance to maintain and contribute to cool projects such as the website of MeTime Healing and Dulles Glass with a small but awsome team.',
 				img: [
 					dashRdImg,
 					meTimeImg,
@@ -160,8 +160,9 @@ export const works: WorkType[] = [
 			},
 			{
 				title: 'y2 Digital',
-				outline: 'Contributed /cases and /fpv page',
-				description: '',
+				outline: 'Crafted /cases and /fpv page for a German digital agency.',
+				description:
+					'A part-time work to contribute /cases and /fpv page pixel-perfect from a Figma design provided for a Germany based agency providing digital services.',
 				img: [y2DigitalImg, y2DigitalImg01, y2DigitalImg02],
 				status: 'done',
 				stack: ['Next.js', 'Framer Motion'],
@@ -176,7 +177,7 @@ export const works: WorkType[] = [
 			{
 				title: 'Game of the Gods',
 				outline: 'The first Maya Chess digital game in 3D made for fun',
-				description: '',
+				description: `I fancied this new board game the moment I saw it on IG Reels. I've been wanting to code Chess for a long time but it's already the niche for developers and I wanted something new. So here's Game of the Gods, 3D game edition, the first of it's kind.`,
 				img: [gotgImg, gotgImg01, gotgImg02],
 				status: 'done',
 				stack: ['React', 'Three.js'],
