@@ -9,7 +9,7 @@
 
 <article class="flex w-full max-w-lg flex-col gap-5 p-10 pb-40 pt-5 sm:pb-5">
 	<section>
-		<h1 class="relative mb-1 flex h-40 items-end text-8xl text-white">
+		<h1 class="relative mb-3 flex h-40 items-end text-8xl text-white">
 			<span class="z-10 px-1 font-tnr">Yo, <span class="text-4xl font-bold">I'm Mar.</span></span>
 			<Img
 				src="/images/this-guy.png"
@@ -17,11 +17,13 @@
 				className="absolute w-full object-cover shadow-lg"
 			/>
 		</h1>
-		<p class="mb-2 indent-4">
-			A developer and a BSCS student. After self-learning for 5 months, I started accepting
-			<Link className="text-blue-600" underline="hover" href="/works">projects</Link> as a freelancer.
-			I'm front-end heavy with just the right amount of knowledge and experience to back-end. React is
-			what I use with TypeScript, but this site is made with Svelte for fun.
+		<p class="mb-3 indent-4">
+			Mar is a developer and a BSCS student based in the Pearl of the Orient Seas, the Philippines. 
+      After self-learning for 5 months, Mar started accepting 
+      <Link className="text-blue-600" underline="hover" href="/works">projects</Link> as a freelancer.
+      Currently, he is living, along with his 
+      <Link className="text-blue-600" underline="hover" href="https://www.instagram.com/stories/highlights/17971517207345015/">cats</Link>, 
+      off of programming.
 		</p>
 		<div class="-mb-1 mt-3 flex justify-center">
 			<Link href="/works">
@@ -35,7 +37,7 @@
 		<p class="mb-1 font-tnr text-4xl font-bold">Bio</p>
 		<div class="flex gap-4">
 			<p class="font-bold">Aug 2002</p>
-			<p class="flex-1">Born in Jeddah, K.S.A.</p>
+			<p class="flex-1">Born in Jeddah, Saudi Arabia</p>
 		</div>
 		<div class="flex gap-4">
 			<p class="font-bold">Jun 2019</p>
@@ -72,16 +74,6 @@
 			<p class="flex-1">
 				Works at <Link className="text-blue-600" underline="hover" href="https://dashrd.com"
 					>Dash RD</Link
-				>
-			</p>
-		</div>
-		<div class="flex gap-4">
-			<p class="font-bold">Jun 2023 to present</p>
-			<p class="flex-1">
-				Works at <Link
-					className="text-blue-600"
-					underline="hover"
-					href="https://frontend-repo-lemon.vercel.app">GiftCardX</Link
 				>
 			</p>
 		</div>
