@@ -10,7 +10,9 @@
 <article class="flex w-full max-w-lg flex-col gap-5 p-10 pb-40 pt-5 sm:pb-5">
 	<section>
 		<h1 class="relative mb-3 flex h-40 items-end text-8xl text-white">
-			<span class="z-10 px-1 font-tnr">Yo, <span class="text-4xl font-bold">I'm Mar.</span></span>
+			<span class="z-10 px-1 font-tnr"
+				>Yo, <span class="-ml-3 text-4xl font-bold">I'm Mar.</span></span
+			>
 			<Img
 				src="/images/this-guy.png"
 				alt="suntoes"
@@ -18,12 +20,15 @@
 			/>
 		</h1>
 		<p class="mb-3 indent-4">
-			Mar is a developer and a BSCS student based in the Pearl of the Orient Seas, the Philippines. 
-      After self-learning for 5 months, Mar started accepting 
-      <Link className="text-blue-600" underline="hover" href="/works">projects</Link> as a freelancer.
-      Currently, he is living, along with his 
-      <Link className="text-blue-600" underline="hover" href="https://www.instagram.com/stories/highlights/17971517207345015/">cats</Link>, 
-      off of programming.
+			Mar is a developer and a BSCS student based in the Pearl of the Orient Seas, the Philippines.
+			After self-learning for 5 months, Mar started accepting
+			<Link className="text-blue-600" underline="hover" href="/works">projects</Link> as a freelancer
+			as a hobby and for fun. Currently along with his
+			<Link
+				className="text-blue-600"
+				underline="hover"
+				href="https://www.instagram.com/stories/highlights/17971517207345015/">cats</Link
+			>, he is living off of programming.
 		</p>
 		<div class="-mb-1 mt-3 flex justify-center">
 			<Link href="/works">
