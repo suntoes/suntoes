@@ -23,7 +23,8 @@
 			Mar is a JavaScript developer and a BSCS student based in <Link
 				className="text-blue-600"
 				underline="hover"
-				href="/works">the Pearl of the Orient Seas</Link
+				href="https://seasia.co/2023/02/19/this-is-why-the-philippines-is-known-as-the-pearl-of-the-orient-seas"
+				>the Pearl of the Orient Seas</Link
 			>. After self-learning for about 5 months, he started accepting <Link
 				className="text-blue-600"
 				underline="hover"
