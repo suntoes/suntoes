@@ -20,15 +20,20 @@
 			/>
 		</h1>
 		<p class="mb-3 indent-4">
-			Mar is a developer and a BSCS student based in the Pearl of the Orient Seas, the Philippines.
-			After self-learning for 5 months, Mar started accepting
-			<Link className="text-blue-600" underline="hover" href="/works">projects</Link> as a freelancer
-			as a hobby and for fun. Currently along with his
+			Mar is a JavaScript developer and a BSCS student based in <Link
+				className="text-blue-600"
+				underline="hover"
+				href="/works">the Pearl of the Orient Seas</Link
+			>. After self-learning for about 5 months, he started accepting <Link
+				className="text-blue-600"
+				underline="hover"
+				href="/works">projects</Link
+			> as a freelancer for fun and hobby. Currently along with his
 			<Link
 				className="text-blue-600"
 				underline="hover"
 				href="https://www.instagram.com/stories/highlights/17971517207345015/">cats</Link
-			>, he is living off of programming.
+			>, he is living off of programming somewhere in the Philippines.
 		</p>
 		<div class="-mb-1 mt-3 flex justify-center">
 			<Link href="/works">
