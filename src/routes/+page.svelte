@@ -3,6 +3,7 @@
 	import FaLinkedin from 'svelte-icons/fa/FaLinkedin.svelte';
 	import FaGithub from 'svelte-icons/fa/FaGithub.svelte';
 	import WorkItem from 'src/components/work-item.svelte';
+	import FaSteam from 'svelte-icons/fa/FaSteam.svelte';
 	import Link from 'src/components/link.svelte';
 	import Img from 'src/components/img.svelte';
 </script>
@@ -33,7 +34,8 @@
 			<Link
 				className="text-blue-600"
 				underline="hover"
-				href="https://www.instagram.com/stories/highlights/17971517207345015/">cats</Link
+				href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE3OTg3NDM2NTA2MjE3NTc4?igshid=MzRlODBiNWFlZA%3D%3D"
+				>cats</Link
 			>, he is living off of programming somewhere in the Philippines.
 		</p>
 		<div class="-mb-1 mt-3 flex justify-center">
@@ -52,7 +54,14 @@
 		</div>
 		<div class="flex gap-4">
 			<p class="font-bold">Jun 2019</p>
-			<p class="flex-1">Studied STEM at PLV</p>
+			<p class="flex-1">
+				Studied STEM at <Link
+					className="text-blue-600"
+					underline="hover"
+					href="https://www.linkedin.com/school/pamantasan-ng-lungsod-ng-valenzuela/?originalSubdomain=ph"
+					>PLV</Link
+				>
+			</p>
 		</div>
 		<div class="flex gap-4">
 			<p class="font-bold">Feb 2020</p>
@@ -68,7 +77,13 @@
 		</div>
 		<div class="flex gap-4">
 			<p class="font-bold">Aug 2022 to present</p>
-			<p class="flex-1">Studies BSCS at OLFU</p>
+			<p class="flex-1">
+				Studies BSCS at <Link
+					className="text-blue-600"
+					underline="hover"
+					href="https://www.linkedin.com/school/our-lady-of-fatima-university/">OLFU</Link
+				>
+			</p>
 		</div>
 		<div class="flex gap-4">
 			<p class="font-bold">Feb 2023</p>
@@ -93,9 +108,13 @@
 	<section>
 		<p class="mb-1 font-tnr text-4xl font-bold">I &lt;3</p>
 		<p class="indent-4">
-			Coffee, Sleeping, Manga, Anime/TV/Film Series,
+			Coffee, Sleeping, Manga, Anime/TV/Film Series, <Link
+				className="text-blue-600"
+				underline="hover"
+				href="https://www.instagram.com/suntoez/">Cars</Link
+			>,
 			<Link className="text-blue-600" underline="hover" href="https://www.instagram.com/suntoez/"
-				>Motorcycle</Link
+				>Motorcycles</Link
 			>, Photography, and Programming
 		</p>
 	</section>
@@ -108,10 +127,20 @@
 				href="https://github.com/suntoes"
 				className="flex gap-2 items-center text-blue-600"
 			>
-				<div class="mt-0.5 h-4 w-4 transition ease-in-out hover:rotate-[20deg]">
+				<div class="h-4 w-4 transition ease-in-out hover:rotate-[20deg]">
 					<FaGithub />
 				</div>
 				<p>@suntoes</p>
+			</Link>
+			<Link
+				underline="hover"
+				href="https://steamcommunity.com/id/suntoess"
+				className="flex gap-2 items-center text-blue-600"
+			>
+				<div class="h-4 w-4 transition ease-in-out hover:rotate-[20deg]">
+					<FaSteam />
+				</div>
+				<p>suntoes</p>
 			</Link>
 			<Link
 				underline="hover"
@@ -128,7 +157,7 @@
 				href="https://www.linkedin.com/in/mar-santos/"
 				className="flex gap-2 items-center text-blue-600"
 			>
-				<div class="mt-0.5 h-4 w-4 transition ease-in-out hover:rotate-[20deg]">
+				<div class="h-4 w-4 transition ease-in-out hover:rotate-[20deg]">
 					<FaLinkedin />
 				</div>
 				<p>Mar Santos</p>

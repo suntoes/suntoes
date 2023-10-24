@@ -1,3 +1,21 @@
+const landscapeListImg = '/images/landscape-list.png';
+const landscapeListImg01 = '/images/landscape-list_01.png';
+const landscapeListImg02 = '/images/landscape-list_02.png';
+const landscapeListImg03 = '/images/landscape-list_03.png';
+const landscapeListImg04 = '/images/landscape-list_04.png';
+const landscapeListImg05 = '/images/landscape-list_05.png';
+const landscapeListImg06 = '/images/landscape-list_06.png';
+
+const miyaImg = '/images/miya.png';
+const miyaImg01 = '/images/miya_01.png';
+const miyaImg02 = '/images/miya_02.png';
+
+const cred3Img = '/images/cred-3.png';
+const cred3Img01 = '/images/cred-3_01.png';
+const cred3Img02 = '/images/cred-3_02.png';
+const cred3Img03 = '/images/cred-3_03.png';
+const cred3Img04 = '/images/cred-3_04.png';
+
 const saberImg = '/images/saber-liquidation.png';
 const saberImg01 = '/images/saber-liquidation_01.png';
 const saberImg02 = '/images/saber-liquidation_02.png';
@@ -94,12 +112,82 @@ export const works: WorkType[] = [
 		title: 'Works',
 		items: [
 			{
+				title: 'Dash RD',
+				outline: `A digital development agency where I work as full-stack`,
+				description:
+					'A digital development agency where I interned for a month and then got hired as full-stack developer. I have the chance to maintain and contribute to cool projects such as the website of MeTime Healing and Dulles Glass with a small but awsome team.',
+				img: [
+					dashRdImg,
+					landscapeListImg,
+					meTimeImg,
+					dullesGlassImg,
+					meTimeImg01,
+					landscapeListImg01,
+					dullesGlassImg01,
+					meTimeImg02,
+					landscapeListImg02,
+					dullesGlassImg03
+				],
+				status: 'active',
+				stack: [
+					'Next.js',
+					'Node.js',
+					'Strapi',
+					'Chakra-UI',
+					'Framer Motion',
+					'GraphQL',
+					'Firebase'
+				],
+				id: 'dash-rd',
+				link: 'https://dashrd.com/'
+			},
+			{
+				title: 'Landscape List',
+				outline: `Spearheaded a service web app's frontend for Dash RD.`,
+				description: `An ongoing project with Dash RD for Landscape List. UI/UX Design is served by Dash RD's talended Graphic Designer on Figma.`,
+				img: [
+					landscapeListImg,
+					landscapeListImg01,
+					landscapeListImg02,
+					landscapeListImg03,
+					landscapeListImg04,
+					landscapeListImg05,
+					landscapeListImg06
+				],
+				status: 'in progress',
+				stack: ['Next.js'],
+				id: 'landscape-list',
+				link: 'https://landscape-list.vercel.app'
+			},
+			{
+				title: 'CRED 3',
+				outline: 'MVP landing page for a startup based in India',
+				description:
+					'A very bare (unfinished) MVP for CRED 3, a startup based in India. UI Design is provided and UX for animated objects are improvised.',
+				img: [cred3Img, cred3Img01, cred3Img02, cred3Img03, cred3Img04],
+				status: 'done',
+				stack: ['React', 'TailwindCSS', 'Framer Motion'],
+				id: 'cred-3',
+				link: 'https://cred-3.vercel.app'
+			},
+			{
+				title: 'y2 Digital',
+				outline: 'Crafted /cases and /fpv page for a German digital agency.',
+				description:
+					'A part-time work to contribute /cases and /fpv page pixel-perfect from a Figma design provided for a Germany based agency providing digital services.',
+				img: [y2DigitalImg, y2DigitalImg01, y2DigitalImg02],
+				status: 'done',
+				stack: ['Next.js', 'Framer Motion'],
+				id: 'y2-digital',
+				link: 'https://y2.digital/fpv'
+			},
+			{
 				title: 'GiftCardX',
 				outline: 'A giftcard to crypto MVP under development',
 				description:
 					'Ongoing B2C MVP development for a startup providing fast and secured giftcard-to-cryptocurrency conversion services.',
 				img: [giftcardxImg, giftcardxImg01, giftcardxImg02],
-				status: 'in progress',
+				status: 'inactive',
 				stack: [
 					'React',
 					'React Query',
@@ -130,44 +218,6 @@ export const works: WorkType[] = [
 				],
 				id: 'saber-liquidation',
 				link: 'https://saberliquidation.com/'
-			},
-			{
-				title: 'Dash RD',
-				outline: `A digital development agency where I work as full-stack`,
-				description:
-					'A digital development agency where I interned for a month and then got hired as full-stack developer. I have the chance to maintain and contribute to cool projects such as the website of MeTime Healing and Dulles Glass with a small but awsome team.',
-				img: [
-					dashRdImg,
-					meTimeImg,
-					dullesGlassImg,
-					meTimeImg01,
-					dullesGlassImg01,
-					meTimeImg02,
-					dullesGlassImg03
-				],
-				status: 'active',
-				stack: [
-					'Next.js',
-					'Node.js',
-					'Strapi',
-					'Chakra-UI',
-					'Framer Motion',
-					'GraphQL',
-					'Firebase'
-				],
-				id: 'dash-rd',
-				link: 'https://dashrd.com/'
-			},
-			{
-				title: 'y2 Digital',
-				outline: 'Crafted /cases and /fpv page for a German digital agency.',
-				description:
-					'A part-time work to contribute /cases and /fpv page pixel-perfect from a Figma design provided for a Germany based agency providing digital services.',
-				img: [y2DigitalImg, y2DigitalImg01, y2DigitalImg02],
-				status: 'done',
-				stack: ['Next.js', 'Framer Motion'],
-				id: 'y2-digital',
-				link: 'https://y2.digital/fpv'
 			}
 		]
 	},
@@ -183,6 +233,17 @@ export const works: WorkType[] = [
 				stack: ['React', 'Three.js'],
 				id: 'game-of-the-gods',
 				link: 'https://game-of-the-gods.vercel.app/'
+			},
+			{
+				title: 'Miya',
+				outline: 'Discontinued MVP for a finance web app',
+				description:
+					'Discontinued MVP for a finance web app. UI Design is provided and UX for animated objects are improvised.',
+				img: [miyaImg, miyaImg01, miyaImg02],
+				status: 'inactive',
+				stack: ['React', 'TailwindCSS', 'Framer Motion'],
+				id: 'miya',
+				link: 'https://miya.vercel.app'
 			},
 			{
 				title: 'Tiago Faleiro',
