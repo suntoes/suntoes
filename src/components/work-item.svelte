@@ -45,14 +45,16 @@
 		on:focus={() => (hovered = true)}
 		on:blur={() => (hovered = false)}
 	>
-		<div class="aspect-w-16 aspect-h-9 min-w-[150px] max-w-[150px] flex-1 sm:max-w-full sm:pl-4">
-			<Img
-				src={img}
-				alt={title}
-				className="h-24 w-full object-cover shadow-md border-[1px] border-gray-100 md:h-28"
-				style="opacity: {hovered ? 0.5 : 1}"
-			/>
-		</div>
+		{#if !!img}
+			<div class="aspect-w-16 aspect-h-9 min-w-[150px] max-w-[150px] flex-1 sm:max-w-full sm:pl-4">
+				<Img
+					src={img}
+					alt={title}
+					className="h-24 w-full object-cover shadow-md border-[1px] border-gray-100 md:h-28"
+					style="opacity: {hovered ? 0.5 : 1}"
+				/>
+			</div>
+		{/if}
 		<div class="-mt-5 flex w-fit flex-col justify-end pt-10 sm:w-auto sm:pt-0">
 			<div class="relative">
 				<p {id} class="w-fit -translate-x-8 px-1 text-xl font-bold sm:translate-x-0">{title}</p>

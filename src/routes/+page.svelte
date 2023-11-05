@@ -8,20 +8,28 @@
 	import Img from 'src/components/img.svelte';
 </script>
 
-<article class="flex w-full max-w-lg flex-col gap-5 p-10 pb-40 pt-5 sm:pb-5">
+<article class="flex w-full max-w-lg flex-col gap-5 p-10 pb-40 pt-8 sm:pb-5">
 	<section>
-		<h1 class="relative mb-3 flex h-40 items-end text-8xl text-white">
-			<span class="z-10 px-1 font-tnr"
-				>Yo, <span class="-ml-3 text-4xl font-bold">I'm Mar.</span></span
-			>
+		<div class="-mb-5 flex justify-between">
+			<div class="my-1">
+				<h1 class="font-tnr text-5xl font-bold tracking-tight">Mar Santos</h1>
+				<p>Digital Craftsman</p>
+			</div>
 			<Img
-				src="/images/this-guy.png"
+				src="/images/suntoes.png"
 				alt="suntoes"
-				className="absolute w-full object-cover shadow-lg"
+				className="w-[7.25rem] h-[7.25rem] rounded-full object-cover shadow-lg"
 			/>
-		</h1>
+		</div>
+	</section>
+	<section>
+		<h3
+			class="mb-1 font-tnr text-3xl font-bold underline decoration-gray-300 underline-offset-[0.2em]"
+		>
+			About
+		</h3>
 		<p class="mb-3 indent-4">
-			Mar is a JavaScript developer and a BSCS student based in <Link
+			Yo, Mar is a JavaScript developer and a BSCS student based in <Link
 				className="text-blue-600"
 				underline="hover"
 				href="https://seasia.co/2023/02/19/this-is-why-the-philippines-is-known-as-the-pearl-of-the-orient-seas"
@@ -36,18 +44,25 @@
 				underline="hover"
 				href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE3OTg3NDM2NTA2MjE3NTc4?igshid=MzRlODBiNWFlZA%3D%3D"
 				>cats</Link
-			>, he is living off of programming somewhere in the Philippines.
+			>, he is living off of programming somewhere in the suburbs of the Philippines.
 		</p>
 		<div class="-mb-1 mt-3 flex justify-center">
-			<Link href="/works">
-				<button class="rounded bg-yellow-500 px-1 text-xl font-bold text-white">
-					View my works
-				</button>
-			</Link>
+			<WorkItem
+				id="item-instagram"
+				title="Portfolio"
+				description="View all my work stuff"
+				img="/images/meows-pad.png"
+				status="in progress"
+				pathname="/works"
+			/>
 		</div>
 	</section>
 	<section>
-		<p class="mb-1 font-tnr text-4xl font-bold">Bio</p>
+		<h3
+			class="mb-1 font-tnr text-3xl font-bold underline decoration-gray-300 underline-offset-[0.2em]"
+		>
+			Bio
+		</h3>
 		<div class="flex gap-4">
 			<p class="font-bold">Aug 2002</p>
 			<p class="flex-1">Born in Jeddah, Saudi Arabia</p>
@@ -106,7 +121,11 @@
 	</section>
 
 	<section>
-		<p class="mb-1 font-tnr text-4xl font-bold">I &lt;3</p>
+		<h3
+			class="mb-1 font-tnr text-3xl font-bold underline decoration-gray-300 underline-offset-[0.2em]"
+		>
+			I &lt;3
+		</h3>
 		<p class="indent-4">
 			Coffee, Sleeping, Manga, Anime/TV/Film Series, <Link
 				className="text-blue-600"
@@ -120,8 +139,12 @@
 	</section>
 
 	<section class="mb-40 sm:mb-0">
-		<p class="mb-1 font-tnr text-4xl font-bold">On the web</p>
-		<div class="mb-3 mt-1 flex flex-col gap-1">
+		<h3
+			class="mb-1 font-tnr text-3xl font-bold underline decoration-gray-300 underline-offset-[0.2em]"
+		>
+			On the web
+		</h3>
+		<div class="mb-3 mt-1.5 flex flex-col gap-1">
 			<Link
 				underline="hover"
 				href="https://github.com/suntoes"
