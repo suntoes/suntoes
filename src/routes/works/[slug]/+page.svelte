@@ -19,8 +19,8 @@
 		<div>
 			<div class="ml-4 flex gap-4">
 				<p class="font-bold">Website</p>
-				<p class="flex-1">
-					<Link className="text-blue-600 break-words" underline="hover" href={work.link}>{work.link}</Link>
+				<p class="flex-1 break-all">
+					<Link className="text-blue-600" underline="hover" href={work.link}>{work.link}</Link>
 				</p>
 			</div>
 			<div class="ml-4 flex gap-4">
@@ -32,8 +32,8 @@
 			{#each links as link}
 				<div class="ml-4 flex gap-4">
 					<p class="font-bold">{link.title}</p>
-					<p class="flex-1">
-						<Link className="text-blue-600 break-words" underline="hover" href={link.href}>{link.href}</Link>
+					<p class="flex-1 break-all">
+						<Link className="text-blue-600" underline="hover" href={link.href}>{link.href}</Link>
 					</p>
 				</div>
 			{/each}
