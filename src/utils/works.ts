@@ -100,6 +100,7 @@ interface WorkItemType {
 	stack: string[];
 	id: string;
 	link: string;
+	links?: { title: string; href: string }[];
 }
 
 interface WorkType {
@@ -139,7 +140,12 @@ export const works: WorkType[] = [
 					'Firebase'
 				],
 				id: 'dash-rd',
-				link: 'https://dashrd.com/'
+				link: 'https://dashrd.com/',
+				links: [
+					{ title: 'Landscape List', href: 'landscape-list.vercel.app/' },
+					{ title: 'Me Time', href: 'https://www.metimehealing.com/' },
+					{ title: 'Dulles Glass', href: 'https://staging.dullesglass.dashdev.tech/' }
+				]
 			},
 			{
 				title: 'Landscape List',
@@ -232,7 +238,14 @@ export const works: WorkType[] = [
 				status: 'done',
 				stack: ['React', 'Three.js'],
 				id: 'game-of-the-gods',
-				link: 'https://game-of-the-gods.vercel.app/'
+				link: 'https://game-of-the-gods.vercel.app/',
+				links: [
+					{
+						title: 'Kickstarter Blog',
+						href: 'https://www.kickstarter.com/projects/mayachess/maya-chess-the-game-of-the-gods/posts/3675279'
+					},
+					{ title: 'Instagram Post', href: 'https://www.instagram.com/p/Cle0vyoDkhu/' }
+				]
 			},
 			{
 				title: 'Miya',
