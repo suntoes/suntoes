@@ -18,7 +18,7 @@
 			<Img
 				src="/images/suntoes.png"
 				alt="suntoes"
-				className="w-[7.25rem] h-[7.25rem] rounded-full object-cover shadow-lg"
+				className="w-[7.25rem] h-[7.25rem] !rounded-full object-cover shadow-lg"
 			/>
 		</div>
 	</section>
