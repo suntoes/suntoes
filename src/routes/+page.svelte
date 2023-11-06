@@ -12,13 +12,13 @@
 	<section>
 		<div class="-mb-5 flex justify-between">
 			<div class="my-1">
-				<h1 class="font-tnr text-5xl font-bold tracking-tight">Mar Santos</h1>
+				<h1 class="font-tnr text-4xl font-bold md:text-5xl">Mar Santos</h1>
 				<p>Digital Craftsman</p>
 			</div>
 			<Img
 				src="/images/suntoes.png"
 				alt="suntoes"
-				className="w-[7.25rem] h-[7.25rem] !rounded-full object-cover shadow-lg"
+				className="w-[7.25rem] h-[7.25rem] !rounded-full object-cover shadow-lg border-[0.2rem] border-solid border-white dark:border-neutral-900"
 			/>
 		</div>
 	</section>

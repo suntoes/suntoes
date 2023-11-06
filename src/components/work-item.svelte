@@ -18,12 +18,12 @@
 
 	const bgColor =
 		status === 'done'
-			? 'bg-sky-500 dark:bg-sky-500'
+			? 'bg-sky-500 dark:bg-sky-400'
 			: status === 'active'
-			? 'bg-lime-500 dark:bg-lime-500'
+			? 'bg-lime-500 dark:bg-lime-400'
 			: status === 'in progress'
-			? 'bg-yellow-500 dark:bg-yellow-500'
-			: 'bg-red-500 dark:bg-red-500';
+			? 'bg-yellow-500 dark:bg-yellow-400'
+			: 'bg-red-500 dark:bg-red-400';
 
 	function handleBreakpointChange() {
 		const itemTitle = document.getElementById(id);
@@ -39,7 +39,7 @@
 
 <Link href={pathname} underline={false} id="work-item">
 	<div
-		class="flex h-fit cursor-pointer flex-row gap-4 sm:flex-col sm:gap-1"
+		class="flex h-fit cursor-pointer flex-row gap-2 text-neutral-900 dark:text-white sm:flex-col sm:gap-1"
 		on:mouseenter={() => (hovered = true)}
 		on:mouseleave={() => (hovered = false)}
 		on:focus={() => (hovered = true)}
@@ -50,14 +50,19 @@
 				<Img
 					src={img}
 					alt={title}
-					className="h-24 w-full object-cover shadow-md border-[1px] border-gray-100 md:h-28"
+					className="!h-22 w-full object-cover shadow-md border-[1px] border-neutral-300 dark:border-neutral-900 md:!h-28"
 					style="opacity: {hovered ? 0.5 : 1}"
 				/>
 			</div>
 		{/if}
 		<div class="-mt-5 flex w-fit flex-col justify-end pt-10 sm:w-auto sm:pt-0">
 			<div class="relative">
-				<p {id} class="w-fit -translate-x-8 px-1 text-xl font-bold sm:translate-x-0">{title}</p>
+				<p
+					{id}
+					class="w-fit -translate-x-8 px-1 text-xl font-bold text-neutral-900 dark:text-white sm:translate-x-0"
+				>
+					{title}
+				</p>
 				<Motion
 					let:motion
 					initial={{ width: 0 }}
@@ -70,12 +75,19 @@
 						use:motion
 					>
 						<div id="gago" style="min-width: {titleWidth}px">
-							<p class={cn('w-fit rounded px-1 text-xl font-bold text-white', bgColor)}>{title}</p>
+							<p
+								class={cn(
+									'w-fit rounded px-1 text-xl font-bold text-white dark:text-neutral-900',
+									bgColor
+								)}
+							>
+								{title}
+							</p>
 						</div>
 					</div>
 				</Motion>
 			</div>
-			<p class="mt-2 text-sm sm:mt-1">{description}</p>
+			<p class="mt-0.5 text-sm sm:mt-1">{description}</p>
 		</div>
 	</div>
 </Link>

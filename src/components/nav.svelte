@@ -1,4 +1,5 @@
 <script lang="ts">
+	import ThemeButton from 'src/components/theme-button.svelte';
 	import MerryGo from 'src/components/merry-go.svelte';
 	import Link from 'src/components/link.svelte';
 	import { routeList } from 'src/utils/works';
@@ -14,12 +15,20 @@
 			</div>
 			<div class="flex translate-x-[9999px] gap-5 rounded-tl-3xl p-5 backdrop-blur-md">
 				{#each routeList as route}
-					<Link href={route.path} underline={url === route.path ? true : 'hover'}>
+					<Link
+						href={route.path}
+						underline={url === route.path ? true : 'hover'}
+						className="!text-neutral-900 dark:!text-white"
+					>
 						{route.title}
 					</Link>
 				{/each}
 				<span>
-					<Link href="https://github.com/suntoes/suntoes" underline="hover">
+					<Link
+						href="https://github.com/suntoes/suntoes"
+						underline="hover"
+						className="!text-neutral-900 dark:!text-white"
+					>
 						<div class="flex items-center gap-1">
 							<div class="-mr-1 mt-1 h-4 w-4">
 								<svg
@@ -40,7 +49,12 @@
 						</div>
 					</Link>
 				</span>
-				<Link href="https://tinyurl.com/cxuva2sa" underline="hover">Resume</Link>
+				<Link
+					href="https://tinyurl.com/cxuva2sa"
+					underline="hover"
+					className="!text-neutral-900 dark:!text-white">Resume</Link
+				>
+				<ThemeButton />
 			</div>
 		</div>
 	</div>

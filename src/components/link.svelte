@@ -11,7 +11,7 @@
 	{id}
 	{href}
 	class={cn(
-		'w-fit cursor-pointer hover:opacity-50',
+		'w-fit cursor-pointer text-blue-600 hover:opacity-50 dark:text-rose-400',
 		className,
 		!!underline &&
 			(underline === 'hover' ? 'hover:underline' : 'underline') +

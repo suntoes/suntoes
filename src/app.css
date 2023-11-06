@@ -6,7 +6,10 @@ html {
 	height: 100%;
 	scroll-behavior: smooth;
 	--tw-bg-opacity: 1;
-	font-size: 0.9rem;
+}
+
+.font-tnr {
+	letter-spacing: -0.0125em;
 }
 
 @font-face {
