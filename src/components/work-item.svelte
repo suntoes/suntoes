@@ -37,7 +37,7 @@
 
 <svelte:window on:resize={handleBreakpointChange} />
 
-<Link href={pathname} underline={false} id="work-item">
+<Link href={pathname} underline={false} id="work-item" className="w-full">
 	<div
 		class="flex h-fit cursor-pointer flex-row gap-2 text-neutral-900 dark:text-white sm:flex-col sm:gap-1"
 		on:mouseenter={() => (hovered = true)}
@@ -46,11 +46,11 @@
 		on:blur={() => (hovered = false)}
 	>
 		{#if !!img}
-			<div class="aspect-w-16 aspect-h-9 min-w-[150px] max-w-[150px] flex-1 sm:max-w-full sm:pl-4">
+			<div class="aspect-[16/9] min-w-[150px] max-w-[150px] flex-1 sm:max-w-full sm:pl-4">
 				<Img
 					src={img}
 					alt={title}
-					className="!h-22 w-full object-cover shadow-md border-[1px] border-neutral-300 dark:border-neutral-900 md:!h-28"
+					className="w-full object-cover shadow-md border-[1px] border-neutral-300 dark:border-neutral-900"
 					style="opacity: {hovered ? 0.5 : 1}"
 				/>
 			</div>

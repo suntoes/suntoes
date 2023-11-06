@@ -40,11 +40,11 @@
 		</div>
 
 		{#each work.img as img}
-			<div class="aspect-w-16 aspect-h-9 w-full">
+			<div class="relative aspect-[16/9] w-full">
 				<Img
 					src={img}
 					alt={work.title}
-					className="w-full object-cover border-[1px] border-gray-100 shadow-md"
+					className="w-full object-cover border-[1px] border-gray-100 shadow-md h-full absolute"
 				/>
 			</div>
 		{/each}

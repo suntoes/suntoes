@@ -46,7 +46,7 @@
 				>cats</Link
 			>, he is living off of programming somewhere in the suburbs of the Philippines.
 		</p>
-		<div class="-mb-1 mt-3 flex justify-center">
+		<div class="mx-auto -mb-1 mt-3 flex justify-center sm:w-1/2">
 			<WorkItem
 				id="item-instagram"
 				title="Portfolio"

@@ -28,9 +28,9 @@
 {#if loaded}
 	<img {src} {alt} class={cn(className, ' rounded-xl')} />
 {:else if failed}
-	<div class={cn(className, '!shadow-none !drop-shadow-none')}>
+	<div class={cn(className, 'relative rounded-xl !shadow-none !drop-shadow-none')}>
 		<svg
-			class="mx-auto h-full max-h-40 text-4xl text-gray-400"
+			class="absolute mx-auto h-full w-full text-4xl text-gray-400"
 			stroke="currentColor"
 			fill="currentColor"
 			stroke-width="0"
@@ -43,10 +43,10 @@
 			/></svg
 		>
 	</div>
-{:else if loading}
-	<div class={cn(className, '!shadow-none !drop-shadow-none')}>
+{:else if loading || !loading}
+	<div class={cn(className, 'relative rounded-xl !shadow-none !drop-shadow-none')}>
 		<svg
-			class="mx-auto h-full max-h-40 text-gray-400"
+			class="absolute mx-auto h-full w-full text-gray-400"
 			version="1.1"
 			id="L9"
 			xmlns="http://www.w3.org/2000/svg"

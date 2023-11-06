@@ -7,13 +7,15 @@
 	export let url;
 </script>
 
-<div class="fixed z-[99] flex h-screen w-screen translate-x-[-9999px] items-end justify-center">
-	<div class="flex w-screen max-w-7xl items-end justify-end">
-		<div class="relative">
-			<div class="absolute bottom-0 right-0 translate-x-[9999px]">
+<div class="fixed bottom-0 left-0 z-[99] flex w-screen items-end justify-center">
+	<div class="absolute flex w-screen max-w-5xl items-end justify-end">
+		<div class="relative w-full">
+			<div class="absolute bottom-0 right-0 max-w-full">
 				<MerryGo />
 			</div>
-			<div class="flex translate-x-[9999px] gap-5 rounded-tl-3xl p-5 backdrop-blur-md">
+			<div
+				class="absolute bottom-0 right-0 flex max-w-full gap-5 rounded-tl-3xl p-5 backdrop-blur-md"
+			>
 				{#each routeList as route}
 					<Link
 						href={route.path}
