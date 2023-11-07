@@ -56,7 +56,7 @@
 			</div>
 		{/if}
 		<div class="-mt-5 flex w-fit flex-col justify-end pt-10 sm:w-auto sm:pt-0">
-			<div class="relative">
+			<div class="relative break-all">
 				<p
 					{id}
 					class="w-fit -translate-x-8 px-1 text-xl font-bold text-neutral-900 dark:text-white sm:translate-x-0"
