@@ -25,7 +25,7 @@
 	});
 </script>
 
-{#if loaded && false}
+{#if loaded}
 	<img {src} {alt} class={cn(className, ' rounded-xl')} />
 {:else if failed}
 	<div class={cn(className, 'relative rounded-xl !shadow-none !drop-shadow-none')}>
