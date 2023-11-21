@@ -133,8 +133,10 @@ export const works: WorkType[] = [
 				stack: [
 					'Next.js',
 					'Node.js',
+          'Builder.io',
 					'Strapi',
 					'Chakra-UI',
+          'TailwindCSS',
 					'Framer Motion',
 					'GraphQL',
 					'Firebase'
@@ -149,8 +151,8 @@ export const works: WorkType[] = [
 			},
 			{
 				title: 'Landscape List',
-				outline: `Spearheaded a NextJS app with visual CMS for Dash RD.`,
-				description: `An ongoing project with Dash RD for Landscape List. UI/UX Design is served by Dash RD's talended Graphic Designer on Figma. Crafted with keen eye not limited to visual stuff but also reusability, for drag & drop visual CMS action of Builder.io.`,
+				outline: `Spearheaded a Next.js app with visual CMS for Dash RD.`,
+				description: `Spearheaded an ongoing project with Dash RD for Landscape List. UI/UX Design is served by Dash RD's talended Graphic Designer on Figma. Crafted with keen eye not limited to visuals but also modularity of coded components for swift drag & drop CMS action of Builder.io.`,
 				img: [
 					landscapeListImg,
 					landscapeListImg01,
@@ -161,7 +163,7 @@ export const works: WorkType[] = [
 					landscapeListImg06
 				],
 				status: 'in progress',
-				stack: ['Next.js', 'Builder.io'],
+				stack: ['Next.js', 'Builder.io', 'TailwindCSS', 'Framer Motion'],
 				id: 'landscape-list',
 				link: 'https://landscape-list.vercel.app'
 			},
