@@ -46,7 +46,9 @@
 		on:blur={() => (hovered = false)}
 	>
 		{#if !!img}
-			<div class="aspect-[16/9] min-w-[150px] max-w-[150px] flex-1 sm:max-w-full sm:min-w-full sm:pl-4">
+			<div
+				class="aspect-[16/9] min-w-[150px] max-w-[150px] flex-1 sm:min-w-full sm:max-w-full sm:pl-4"
+			>
 				<Img
 					src={img}
 					alt={title}

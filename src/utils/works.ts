@@ -149,8 +149,8 @@ export const works: WorkType[] = [
 			},
 			{
 				title: 'Landscape List',
-				outline: `Spearheaded a service web app's frontend for Dash RD.`,
-				description: `An ongoing project with Dash RD for Landscape List. UI/UX Design is served by Dash RD's talended Graphic Designer on Figma.`,
+				outline: `Spearheaded a NextJS app with visual CMS for Dash RD.`,
+				description: `An ongoing project with Dash RD for Landscape List. UI/UX Design is served by Dash RD's talended Graphic Designer on Figma. Crafted with keen eye not limited to visual stuff but also reusability, for drag & drop visual CMS action of Builder.io.`,
 				img: [
 					landscapeListImg,
 					landscapeListImg01,
@@ -161,9 +161,28 @@ export const works: WorkType[] = [
 					landscapeListImg06
 				],
 				status: 'in progress',
-				stack: ['Next.js'],
+				stack: ['Next.js', 'Builder.io'],
 				id: 'landscape-list',
 				link: 'https://landscape-list.vercel.app'
+			},
+			{
+				title: 'GiftCardX',
+				outline: 'A giftcard to crypto MVP under development',
+				description:
+					'Ongoing B2C MVP development for a startup providing fast and secured giftcard-to-cryptocurrency conversion services.',
+				img: [giftcardxImg, giftcardxImg01, giftcardxImg02],
+				status: 'in progress',
+				stack: [
+					'React',
+					'React Query',
+					'Axios',
+					'TailwindCSS',
+					'Framer Motion',
+					'Storybook',
+					'Flask'
+				],
+				id: 'giftcardx',
+				link: 'https://frontend-repo-lemon.vercel.app/'
 			},
 			{
 				title: 'CRED 3',
@@ -186,25 +205,6 @@ export const works: WorkType[] = [
 				stack: ['Next.js', 'Framer Motion'],
 				id: 'y2-digital',
 				link: 'https://y2.digital/fpv'
-			},
-			{
-				title: 'GiftCardX',
-				outline: 'A giftcard to crypto MVP under development',
-				description:
-					'Ongoing B2C MVP development for a startup providing fast and secured giftcard-to-cryptocurrency conversion services.',
-				img: [giftcardxImg, giftcardxImg01, giftcardxImg02],
-				status: 'inactive',
-				stack: [
-					'React',
-					'React Query',
-					'Axios',
-					'TailwindCSS',
-					'Framer Motion',
-					'Storybook',
-					'Flask'
-				],
-				id: 'giftcardx',
-				link: 'https://frontend-repo-lemon.vercel.app/'
 			},
 			{
 				title: 'Saber Liquidation',
@@ -241,10 +241,10 @@ export const works: WorkType[] = [
 				link: 'https://game-of-the-gods.vercel.app/',
 				links: [
 					{
-						title: 'Kickstarter Blog',
+						title: 'Kickstarter mention',
 						href: 'https://www.kickstarter.com/projects/mayachess/maya-chess-the-game-of-the-gods/posts/3675279'
 					},
-					{ title: 'Instagram Post', href: 'https://www.instagram.com/p/Cle0vyoDkhu/' }
+					{ title: 'Instagram mention', href: 'https://www.instagram.com/p/Cle0vyoDkhu/' }
 				]
 			},
 			{
