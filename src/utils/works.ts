@@ -133,10 +133,10 @@ export const works: WorkType[] = [
 				stack: [
 					'Next.js',
 					'Node.js',
-          'Builder.io',
+					'Builder.io',
 					'Strapi',
 					'Chakra-UI',
-          'TailwindCSS',
+					'TailwindCSS',
 					'Framer Motion',
 					'GraphQL',
 					'Firebase'
@@ -151,8 +151,8 @@ export const works: WorkType[] = [
 			},
 			{
 				title: 'Landscape List',
-				outline: `Spearheaded a Next.js app with visual CMS for Dash RD.`,
-				description: `Spearheaded an ongoing project with Dash RD for Landscape List. UI/UX Design is served by Dash RD's talended Graphic Designer on Figma. Crafted with keen eye not limited to visuals but also modularity of coded components for swift drag & drop CMS action of Builder.io.`,
+				outline: `Spearheaded a Next.js app into production with visual CMS.`,
+				description: `Built from scratch into production project I made with Dash RD for Landscape List. UI/UX Design is served by Dash RD's talended Graphic Designer on Figma. Crafted with keen eye not limited to visuals but also full modularity of coded components for swift drag & drop CMS action of Builder.io. Multiple integrated webhooks, custom /api routes, and microservices done by yours truly.`,
 				img: [
 					landscapeListImg,
 					landscapeListImg01,
@@ -235,7 +235,7 @@ export const works: WorkType[] = [
 			{
 				title: 'Game of the Gods',
 				outline: 'The first Maya Chess digital game in 3D made for fun',
-				description: `I fancied this new board game the moment I saw it on IG Reels. I've been wanting to code Chess for a long time but it's already the niche for developers and I wanted something new. So here's Game of the Gods, 3D game edition, the first of it's kind.`,
+				description: `I fancied this new board game the moment I saw it on IG Reels. I've been wanting to code Chess for a long time but it's already the niche for developers and I wanted something new. So here's Game of the Gods, 3D game edition, the first of it's kind. Nearly have been developed into an online game led by me with Maya Chess, but their kickstarter unfortunately turned unfruitful.`,
 				img: [gotgImg, gotgImg01, gotgImg02],
 				status: 'done',
 				stack: ['React', 'Three.js'],
