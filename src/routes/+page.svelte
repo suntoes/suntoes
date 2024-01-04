@@ -22,7 +22,7 @@
 			/>
 		</div>
 	</section>
-	<section>
+	<section id='about'>
 		<h3
 			class="mb-1 font-tnr text-3xl font-bold underline decoration-gray-300 underline-offset-[0.2em]"
 		>
@@ -57,7 +57,7 @@
 			/>
 		</div>
 	</section>
-	<section>
+	<section id='bio'>
 		<h3
 			class="mb-1 font-tnr text-3xl font-bold underline decoration-gray-300 underline-offset-[0.2em]"
 		>
@@ -120,7 +120,7 @@
 		</div>
 	</section>
 
-	<section>
+	<section id='i-heart'>
 		<h3
 			class="mb-1 font-tnr text-3xl font-bold underline decoration-gray-300 underline-offset-[0.2em]"
 		>
@@ -138,7 +138,7 @@
 		</p>
 	</section>
 
-	<section class="mb-40 sm:mb-0">
+	<section id='on-the-web' class="mb-40 sm:mb-0">
 		<h3
 			class="mb-1 font-tnr text-3xl font-bold underline decoration-gray-300 underline-offset-[0.2em]"
 		>
