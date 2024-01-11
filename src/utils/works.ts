@@ -140,7 +140,7 @@ export const works: WorkType[] = [
 						description:
 							'Next.js, Node.js, Builder.io, Strapi, Chakra-UI, TailwindCSS, Framer Motion, GraphQL, Firebase'
 					},
-					{ title: 'Project', href: 'https://landscape-list.vercel.app/', description: 'LandscapeList' },
+					{ title: 'Project', href: '/works/landscape-list', description: 'LandscapeList' },
 					{ title: 'Project 01', href: 'https://www.metimehealing.com/' },
 					{ title: 'Project 02', href: 'https://www.dullesglass.com/' }
 				]
