@@ -142,7 +142,7 @@ export const works: WorkType[] = [
 					},
 					{ title: 'Landscape List', href: 'landscape-list.vercel.app/' },
 					{ title: 'Me Time', href: 'https://www.metimehealing.com/' },
-					{ title: 'Dulles Glass', href: 'https://staging.dullesglass.dashdev.tech/' }
+					{ title: 'Dulles Glass', href: 'https://www.dullesglass.com/' }
 				]
 			},
 			{

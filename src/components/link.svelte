@@ -1,8 +1,10 @@
 <script lang="ts">
+  import FaExternalLinkAlt from 'svelte-icons/fa/FaExternalLinkAlt.svelte'
 	import cn from 'classnames';
 
 	export let underline: boolean | 'hover' = true;
 	export let className = '';
+  export let icon = false;
 	export let href = '';
 	export let id = '';
 </script>
@@ -19,4 +21,9 @@
 	)}
 >
 	<slot />
+  {#if icon}
+    <div class='inline-block w-4 h-4 translate-y-1 ml-1'>
+      <FaExternalLinkAlt />
+    </div>
+  {/if}
 </a>

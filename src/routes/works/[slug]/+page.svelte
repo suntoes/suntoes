@@ -23,7 +23,7 @@
 					<p class="font-bold">{deet.title}</p>
 					<p class={cn('flex-1', deet?.href ? 'break-all' : '')}>
 						{#if deet?.href}
-							<Link className="text-blue-600" underline="hover" href={deet?.href}>{deet?.href}</Link
+							<Link icon={true} className="text-blue-600" underline="hover" href={deet?.href}>{deet?.href}</Link
 							>
 						{:else}
 							{deet?.description}
