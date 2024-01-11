@@ -108,7 +108,7 @@
 			</p>
 		</div>
 		<div class="flex gap-4">
-			<p class="font-bold">Mar 2023 to present</p>
+			<p class="font-bold">Mar 2023</p>
 			<p class="flex-1">
 				Worked at <Link className="text-blue-600" underline="hover" href="/works/dash-rd"
 					>Dash RD</Link

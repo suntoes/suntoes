@@ -182,6 +182,39 @@ export const works: WorkType[] = [
 				]
 			},
 			{
+				id: 'game-of-the-gods',
+				title: 'Game of the Gods',
+				outline: 'The first Maya Chess digital game in 3D made for fun',
+				description: `I fancied this new board game the moment I saw it on IG Reels. I've been wanting to code Chess for a long time but it's already the niche for developers and I wanted something new. So here's Game of the Gods, 3D game edition, the first of it's kind. Nearly have been developed into an online game led by me with Maya Chess, but their kickstarter unfortunately turned unfruitful.`,
+				img: [gotgImg, gotgImg01, gotgImg02],
+				status: 'done',
+				deets: [
+					{ title: 'Website', href: 'https://game-of-the-gods.vercel.app/' },
+					{ title: 'Tech/Tools', description: 'React, Three.js' },
+					{
+						title: 'Coverage',
+						href: 'https://www.kickstarter.com/projects/mayachess/maya-chess-the-game-of-the-gods/posts/3675279'
+					},
+					{ title: 'Coverage 01', href: 'https://www.instagram.com/p/Cle0vyoDkhu/' }
+				]
+			},
+			{
+				id: 'saber-liquidation',
+				title: 'Saber Liquidation',
+				outline: `A giftcard to cash MVP developed with a small team. `,
+				description: `Developed an MVP web app for a startup providing fast and secured giftcard-to-cash conversion services developed with a small team on restricted schedule as freelancer. Proceeds to become a full-stack developer for the startup and build internal tools.`,
+				img: [saberImg, saberImg01, saberImg02, saberImg03, saberImg04, saberImg05],
+				status: 'active',
+				deets: [
+					{ title: 'Website', href: 'https://saberliquidation.com/' },
+					{
+						title: 'Tech/Tools',
+						description:
+							'React, React Query, Axios, TailwindCSS, Framer Motion, Storybook, Flask, HTML/CSS/JS'
+					}
+				]
+			},
+			{
 				id: 'cred-3',
 				title: 'CRED 3',
 				outline: 'MVP landing page for a startup based in India',
@@ -208,22 +241,6 @@ export const works: WorkType[] = [
 				]
 			},
 			{
-				id: 'saber-liquidation',
-				title: 'Saber Liquidation',
-				outline: `A giftcard to cash MVP developed with a small team. `,
-				description: `Developed an MVP web app for a startup providing fast and secured giftcard-to-cash conversion services developed with a small team on restricted schedule as freelancer. Proceeds to become a full-stack developer for the startup and build internal tools.`,
-				img: [saberImg, saberImg01, saberImg02, saberImg03, saberImg04, saberImg05],
-				status: 'active',
-				deets: [
-					{ title: 'Website', href: 'https://saberliquidation.com/' },
-					{
-						title: 'Tech/Tools',
-						description:
-							'React, React Query, Axios, TailwindCSS, Framer Motion, Storybook, Flask, HTML/CSS/JS'
-					}
-				]
-			},
-			{
 				id: 'miya',
 				title: 'Miya',
 				outline: 'Discontinued MVP for a finance web app',
@@ -234,23 +251,6 @@ export const works: WorkType[] = [
 				deets: [
 					{ title: 'Website', href: 'https://miya.vercel.app' },
 					{ title: 'Tech/Tools', description: 'React, TailwindCSS, Framer Motion' }
-				]
-			},
-			{
-				id: 'game-of-the-gods',
-				title: 'Game of the Gods',
-				outline: 'The first Maya Chess digital game in 3D made for fun',
-				description: `I fancied this new board game the moment I saw it on IG Reels. I've been wanting to code Chess for a long time but it's already the niche for developers and I wanted something new. So here's Game of the Gods, 3D game edition, the first of it's kind. Nearly have been developed into an online game led by me with Maya Chess, but their kickstarter unfortunately turned unfruitful.`,
-				img: [gotgImg, gotgImg01, gotgImg02],
-				status: 'done',
-				deets: [
-					{ title: 'Website', href: 'https://game-of-the-gods.vercel.app/' },
-					{ title: 'Tech/Tools', description: 'React, Three.js' },
-					{
-						title: 'Mention',
-						href: 'https://www.kickstarter.com/projects/mayachess/maya-chess-the-game-of-the-gods/posts/3675279'
-					},
-					{ title: 'Mention 01', href: 'https://www.instagram.com/p/Cle0vyoDkhu/' }
 				]
 			}
 		]
@@ -335,7 +335,7 @@ export const works: WorkType[] = [
 				status: 'inactive',
 				deets: [
 					{
-						title: 'Website',
+						title: 'Figma',
 						href: 'https://www.figma.com/file/Ltq0iqsrXNknjzLDpUV9Xz/lumifilms.sg-(Copy)?node-id=0%3A1&t=hO9ei6PuXo9V88vd-0'
 					},
 					{ title: 'Tech/Tools', description: 'Figma, Photoshop' }
