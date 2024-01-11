@@ -140,9 +140,9 @@ export const works: WorkType[] = [
 						description:
 							'Next.js, Node.js, Builder.io, Strapi, Chakra-UI, TailwindCSS, Framer Motion, GraphQL, Firebase'
 					},
-					{ title: 'Landscape List', href: 'landscape-list.vercel.app/' },
-					{ title: 'Me Time', href: 'https://www.metimehealing.com/' },
-					{ title: 'Dulles Glass', href: 'https://www.dullesglass.com/' }
+					{ title: 'Project', href: 'https://landscape-list.vercel.app/', description: 'LandscapeList' },
+					{ title: 'Project 01', href: 'https://www.metimehealing.com/' },
+					{ title: 'Project 02', href: 'https://www.dullesglass.com/' }
 				]
 			},
 			{
@@ -162,23 +162,8 @@ export const works: WorkType[] = [
 				status: 'in progress',
 				deets: [
 					{ title: 'Website', href: 'https://landscape-list.vercel.app' },
-					{ title: 'Tech/Tools', description: 'Next.js, Builder.io, TailwindCSS, Framer Motion' }
-				]
-			},
-			{
-				id: 'giftcardx',
-				title: 'GiftCardX',
-				outline: 'A giftcard to crypto MVP under development',
-				description:
-					'Ongoing B2C MVP development for a startup providing fast and secured giftcard-to-cryptocurrency conversion services.',
-				img: [giftcardxImg, giftcardxImg01, giftcardxImg02],
-				status: 'in progress',
-				deets: [
-					{ title: 'Website', href: 'https://frontend-repo-lemon.vercel.app/' },
-					{
-						title: 'Tech/Tools',
-						description: 'React, React Query, Axios, TailwindCSS, Framer Motion, Storybook, Flask'
-					}
+					{ title: 'Tech/Tools', description: 'Next.js, Builder.io, TailwindCSS, Framer Motion' },
+					{ title: 'Digital Agency', href: '/works/dash-rd', description: 'Dash RD' },
 				]
 			},
 			{
@@ -196,6 +181,22 @@ export const works: WorkType[] = [
 						href: 'https://www.kickstarter.com/projects/mayachess/maya-chess-the-game-of-the-gods/posts/3675279'
 					},
 					{ title: 'Coverage 01', href: 'https://www.instagram.com/p/Cle0vyoDkhu/' }
+				]
+			},
+			{
+				id: 'giftcardx',
+				title: 'GiftCardX',
+				outline: 'A giftcard to crypto MVP under development',
+				description:
+					'Ongoing B2C MVP development for a startup providing fast and secured giftcard-to-cryptocurrency conversion services.',
+				img: [giftcardxImg, giftcardxImg01, giftcardxImg02],
+				status: 'in progress',
+				deets: [
+					{ title: 'Website', href: 'https://frontend-repo-lemon.vercel.app/' },
+					{
+						title: 'Tech/Tools',
+						description: 'React, React Query, Axios, TailwindCSS, Framer Motion, Storybook, Flask'
+					}
 				]
 			},
 			{
