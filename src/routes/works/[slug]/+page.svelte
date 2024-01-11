@@ -1,10 +1,11 @@
 <script>
 	import Link from 'src/components/link.svelte';
 	import Img from 'src/components/img.svelte';
+	import cn from 'classnames';
 
 	export let data;
 	const { work } = data;
-	const links = work?.links || [];
+	const deets = work?.deets || [];
 </script>
 
 <article class="flex w-full max-w-lg flex-col gap-5 px-10 py-10">
@@ -29,11 +30,16 @@
 					{work.stack.join(', ')}
 				</p>
 			</div>
-			{#each links as link}
+			{#each deets as deet}
 				<div class="ml-4 flex gap-4">
-					<p class="font-bold">{link.title}</p>
-					<p class="flex-1 break-all">
-						<Link className="text-blue-600" underline="hover" href={link.href}>{link.href}</Link>
+					<p class="font-bold">{deet.title}</p>
+					<p class={cn('flex-1', deet?.href ? 'break-all' : '')}>
+						{#if deet?.href}
+							<Link className="text-blue-600" underline="hover" href={deet?.href}>{deet?.href}</Link
+							>
+						{:else}
+							{deet?.description}
+						{/if}
 					</p>
 				</div>
 			{/each}

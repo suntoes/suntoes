@@ -46,6 +46,10 @@ const gotgImg = '/images/game-of-the-gods.png';
 const gotgImg01 = '/images/game-of-the-gods_01.png';
 const gotgImg02 = '/images/game-of-the-gods_02.png';
 
+const defoImg = '/images/defo.png';
+
+const turbolegiImg = 'images/turbolegi.png';
+
 const tiagoImg = '/images/tiago.png';
 const tiagoImg01 = '/images/tiago_01.png';
 const tiagoImg02 = '/images/tiago_02.png';
@@ -97,10 +101,8 @@ interface WorkItemType {
 	description: string;
 	img: string[];
 	status: string;
-	stack: string[];
 	id: string;
-	link: string;
-	links?: { title: string; href: string }[];
+	deets: { title: string; href?: string; description?: string }[];
 }
 
 interface WorkType {
@@ -113,6 +115,7 @@ export const works: WorkType[] = [
 		title: 'Works',
 		items: [
 			{
+				id: 'dash-rd',
 				title: 'Dash RD',
 				outline: `A digital development agency where I work as full-stack`,
 				description:
@@ -130,26 +133,20 @@ export const works: WorkType[] = [
 					dullesGlassImg03
 				],
 				status: 'active',
-				stack: [
-					'Next.js',
-					'Node.js',
-					'Builder.io',
-					'Strapi',
-					'Chakra-UI',
-					'TailwindCSS',
-					'Framer Motion',
-					'GraphQL',
-					'Firebase'
-				],
-				id: 'dash-rd',
-				link: 'https://dashrd.com/',
-				links: [
+				deets: [
+					{ title: 'Website', href: 'https://dashrd.com/' },
+					{
+						title: 'Tech/Tools',
+						description:
+							'Next.js, Node.js, Builder.io, Strapi, Chakra-UI, TailwindCSS, Framer Motion, GraphQL, Firebase'
+					},
 					{ title: 'Landscape List', href: 'landscape-list.vercel.app/' },
 					{ title: 'Me Time', href: 'https://www.metimehealing.com/' },
 					{ title: 'Dulles Glass', href: 'https://staging.dullesglass.dashdev.tech/' }
 				]
 			},
 			{
+				id: 'landscape-list',
 				title: 'Landscape List',
 				outline: `Spearheaded a Next.js app into production with visual CMS.`,
 				description: `Built from scratch into production project I made with Dash RD for Landscape List. UI/UX Design is served by Dash RD's talended Graphic Designer on Figma. Crafted with keen eye not limited to visuals but also full modularity of coded components for swift drag & drop CMS action of Builder.io. Multiple integrated webhooks, custom /api routes, and microservices done by yours truly.`,
@@ -163,69 +160,98 @@ export const works: WorkType[] = [
 					landscapeListImg06
 				],
 				status: 'in progress',
-				stack: ['Next.js', 'Builder.io', 'TailwindCSS', 'Framer Motion'],
-				id: 'landscape-list',
-				link: 'https://landscape-list.vercel.app'
+				deets: [
+					{ title: 'Website', href: 'https://landscape-list.vercel.app' },
+					{ title: 'Tech/Tools', description: 'Next.js, Builder.io, TailwindCSS, Framer Motion' }
+				]
 			},
 			{
+				id: 'giftcardx',
 				title: 'GiftCardX',
 				outline: 'A giftcard to crypto MVP under development',
 				description:
 					'Ongoing B2C MVP development for a startup providing fast and secured giftcard-to-cryptocurrency conversion services.',
 				img: [giftcardxImg, giftcardxImg01, giftcardxImg02],
 				status: 'in progress',
-				stack: [
-					'React',
-					'React Query',
-					'Axios',
-					'TailwindCSS',
-					'Framer Motion',
-					'Storybook',
-					'Flask'
-				],
-				id: 'giftcardx',
-				link: 'https://frontend-repo-lemon.vercel.app/'
+				deets: [
+					{ title: 'Website', href: 'https://frontend-repo-lemon.vercel.app/' },
+					{
+						title: 'Tech/Tools',
+						description: 'React, React Query, Axios, TailwindCSS, Framer Motion, Storybook, Flask'
+					}
+				]
 			},
 			{
+				id: 'cred-3',
 				title: 'CRED 3',
 				outline: 'MVP landing page for a startup based in India',
 				description:
 					'A very bare (unfinished) MVP for CRED 3, a startup based in India. UI Design is provided and UX for animated objects are improvised.',
 				img: [cred3Img, cred3Img01, cred3Img02, cred3Img03, cred3Img04],
 				status: 'done',
-				stack: ['React', 'TailwindCSS', 'Framer Motion'],
-				id: 'cred-3',
-				link: 'https://cred-3.vercel.app'
+				deets: [
+					{ title: 'Website', href: 'https://cred-3.vercel.app' },
+					{ title: 'Tech/Tools', description: 'React, TailwindCSS, Framer Motion' }
+				]
 			},
 			{
+				id: 'y2-digital',
 				title: 'y2 Digital',
 				outline: 'Crafted /cases and /fpv page for a German digital agency.',
 				description:
 					'A part-time work to contribute /cases and /fpv page pixel-perfect from a Figma design provided for a Germany based agency providing digital services.',
 				img: [y2DigitalImg, y2DigitalImg01, y2DigitalImg02],
 				status: 'done',
-				stack: ['Next.js', 'Framer Motion'],
-				id: 'y2-digital',
-				link: 'https://y2.digital/fpv'
+				deets: [
+					{ title: 'Website', href: 'https://y2.digital/fpv' },
+					{ title: 'Tech/Tools', description: 'Next.js, Framer Motion' }
+				]
 			},
 			{
+				id: 'saber-liquidation',
 				title: 'Saber Liquidation',
 				outline: `A giftcard to cash MVP developed with a small team. `,
 				description: `Developed an MVP web app for a startup providing fast and secured giftcard-to-cash conversion services developed with a small team on restricted schedule as freelancer. Proceeds to become a full-stack developer for the startup and build internal tools.`,
 				img: [saberImg, saberImg01, saberImg02, saberImg03, saberImg04, saberImg05],
 				status: 'active',
-				stack: [
-					'React',
-					'React Query',
-					'Axios',
-					'TailwindCSS',
-					'Framer Motion',
-					'Storybook',
-					'Flask',
-					'HTML/CSS/JS'
-				],
-				id: 'saber-liquidation',
-				link: 'https://saberliquidation.com/'
+				deets: [
+					{ title: 'Website', href: 'https://saberliquidation.com/' },
+					{
+						title: 'Tech/Tools',
+						description:
+							'React, React Query, Axios, TailwindCSS, Framer Motion, Storybook, Flask, HTML/CSS/JS'
+					}
+				]
+			},
+			{
+				id: 'miya',
+				title: 'Miya',
+				outline: 'Discontinued MVP for a finance web app',
+				description:
+					'Discontinued MVP for a finance web app. UI Design is provided and UX for animated objects are improvised.',
+				img: [miyaImg, miyaImg01, miyaImg02],
+				status: 'inactive',
+				deets: [
+					{ title: 'Website', href: 'https://miya.vercel.app' },
+					{ title: 'Tech/Tools', description: 'React, TailwindCSS, Framer Motion' }
+				]
+			},
+			{
+				id: 'game-of-the-gods',
+				title: 'Game of the Gods',
+				outline: 'The first Maya Chess digital game in 3D made for fun',
+				description: `I fancied this new board game the moment I saw it on IG Reels. I've been wanting to code Chess for a long time but it's already the niche for developers and I wanted something new. So here's Game of the Gods, 3D game edition, the first of it's kind. Nearly have been developed into an online game led by me with Maya Chess, but their kickstarter unfortunately turned unfruitful.`,
+				img: [gotgImg, gotgImg01, gotgImg02],
+				status: 'done',
+				deets: [
+					{ title: 'Website', href: 'https://game-of-the-gods.vercel.app/' },
+					{ title: 'Tech/Tools', description: 'React, Three.js' },
+					{
+						title: 'Mention',
+						href: 'https://www.kickstarter.com/projects/mayachess/maya-chess-the-game-of-the-gods/posts/3675279'
+					},
+					{ title: 'Mention 01', href: 'https://www.instagram.com/p/Cle0vyoDkhu/' }
+				]
 			}
 		]
 	},
@@ -233,55 +259,56 @@ export const works: WorkType[] = [
 		title: 'Collabs',
 		items: [
 			{
-				title: 'Game of the Gods',
-				outline: 'The first Maya Chess digital game in 3D made for fun',
-				description: `I fancied this new board game the moment I saw it on IG Reels. I've been wanting to code Chess for a long time but it's already the niche for developers and I wanted something new. So here's Game of the Gods, 3D game edition, the first of it's kind. Nearly have been developed into an online game led by me with Maya Chess, but their kickstarter unfortunately turned unfruitful.`,
-				img: [gotgImg, gotgImg01, gotgImg02],
+				id: 'turbolegi',
+				title: 'Turbolegi',
+				outline: 'A memo generator for a company',
+				description: `A stable and small web app for generating company memo deployed on a linux server of DigitalOcean`,
+				img: [turbolegiImg],
 				status: 'done',
-				stack: ['React', 'Three.js'],
-				id: 'game-of-the-gods',
-				link: 'https://game-of-the-gods.vercel.app/',
-				links: [
-					{
-						title: 'Kickstarter mention',
-						href: 'https://www.kickstarter.com/projects/mayachess/maya-chess-the-game-of-the-gods/posts/3675279'
-					},
-					{ title: 'Instagram mention', href: 'https://www.instagram.com/p/Cle0vyoDkhu/' }
+				deets: [
+					{ title: 'Website', href: 'https://turbolegi.com' },
+					{ title: 'Tech/Tools', description: 'Flask, Auth0, Open AI, Jinja2, TailwindCSS' }
 				]
 			},
 			{
-				title: 'Miya',
-				outline: 'Discontinued MVP for a finance web app',
-				description:
-					'Discontinued MVP for a finance web app. UI Design is provided and UX for animated objects are improvised.',
-				img: [miyaImg, miyaImg01, miyaImg02],
-				status: 'inactive',
-				stack: ['React', 'TailwindCSS', 'Framer Motion'],
-				id: 'miya',
-				link: 'https://miya.vercel.app'
-			},
-			{
+				id: 'tiago-faleiro',
 				title: 'Tiago Faleiro',
 				outline: 'A coaching website for an independent psychologist',
 				description: '',
 				img: [tiagoImg, tiagoImg01, tiagoImg02, tiagoImg03, tiagoImg04, tiagoImg05],
 				status: 'done',
-				stack: ['React', 'TailwindCSS', 'Framer Motion'],
-				id: 'tiago-faleiro',
-				link: 'https://tiago-faleiro.vercel.app/'
+				deets: [
+					{ title: 'Website', href: 'https://tiago-faleiro.vercel.app/' },
+					{ title: 'Tech/Tools', description: 'React, TailwindCSS, Framer Motion' }
+				]
 			},
 			{
+				id: 'defo',
+				title: 'Defo',
+				outline: 'Value computation from APIs for an NFT',
+				description: '',
+				img: [defoImg],
+				status: 'done',
+				deets: [
+					{ title: 'Website', href: 'https://www.defo.app/' },
+					{ title: 'Tech/Tools', description: 'Next.js' }
+				]
+			},
+			{
+				id: 'ran-online-ph',
 				title: 'RAN Online PH',
 				outline: 'Complete revamp of legacy website for an old school MMORPG',
 				description:
 					'Complete revamp of legacy website for an old school MMORPG with integration to existing PHP server',
 				img: [ranPhImg, ranPhImg01, ranPhImg02, ranPhImg03],
 				status: 'done',
-				stack: ['React'],
-				id: 'ran-online-ph',
-				link: 'https://ranonlineph-official.com/'
+				deets: [
+					{ title: 'Website', href: 'https://ranonlineph-official.com/' },
+					{ title: 'Tech/Tools', description: 'React, Chakra UI, Axios' }
+				]
 			},
 			{
+				id: 'coffee-dojo',
 				title: 'Coffee Dojo',
 				outline: 'A visual website for a Japanese cafe',
 				description: '',
@@ -294,29 +321,37 @@ export const works: WorkType[] = [
 					coffeeDojoImg05
 				],
 				status: 'done',
-				stack: ['React', 'Node.js'],
-				id: 'coffee-dojo',
-				link: 'https://coffee-dojo.com'
+				deets: [
+					{ title: 'Website', href: 'https://coffee-dojo.com' },
+					{ title: 'Tech/Tools', description: 'React, Node.js' }
+				]
 			},
 			{
+				id: 'lumi-films',
 				title: 'Lumi Films Singapore',
 				outline: 'Web design in Figma for a Singapore startup film studio',
 				description: '',
 				img: [lumiFilmsImg, lumiFilmsImg01],
 				status: 'inactive',
-				stack: ['Figma', 'Photoshop'],
-				id: 'lumi-films',
-				link: 'https://www.figma.com/file/Ltq0iqsrXNknjzLDpUV9Xz/lumifilms.sg-(Copy)?node-id=0%3A1&t=hO9ei6PuXo9V88vd-0'
+				deets: [
+					{
+						title: 'Website',
+						href: 'https://www.figma.com/file/Ltq0iqsrXNknjzLDpUV9Xz/lumifilms.sg-(Copy)?node-id=0%3A1&t=hO9ei6PuXo9V88vd-0'
+					},
+					{ title: 'Tech/Tools', description: 'Figma, Photoshop' }
+				]
 			},
 			{
+				id: 'anagoge',
 				title: 'Anagoge',
 				outline: 'A philosophy, psychology, and wisdom podcast collection',
 				description: '',
 				img: [anagogeImg, anagogeImg01],
 				status: 'done',
-				stack: ['React'],
-				id: 'anagoge',
-				link: 'https://anagoge-test.vercel.app/'
+				deets: [
+					{ title: 'Website', href: 'https://anagoge-test.vercel.app/' },
+					{ title: 'Tech/Tools', description: 'React, Framer Motion, TailwindCSS' }
+				]
 			}
 		]
 	},
@@ -324,54 +359,64 @@ export const works: WorkType[] = [
 		title: 'Olds',
 		items: [
 			{
+				id: 'msb8-bluesky',
 				title: 'Bluesky Media',
 				outline: '.PSD to HTML conversion.',
 				description: '',
 				img: [msb8BlueskyImg],
 				status: 'inactive',
-				stack: ['React'],
-				id: 'msb8-bluesky',
-				link: 'https://msb8-bluesky-media.vercel.app/'
+				deets: [
+					{ title: 'Website', href: 'https://msb8-bluesky-media.vercel.app/' },
+					{ title: 'Tech/Tools', description: 'React' }
+				]
 			},
 			{
+				id: 'ran-mobile-ph',
 				title: 'RAN Mobile',
 				outline: 'Landing page for a mobile game',
 				description: '',
 				img: [ranMobileImg],
 				status: 'done',
-				stack: ['React'],
-				id: 'ran-mobile-ph',
-				link: 'https://ran-mobile.com'
+				deets: [
+					{ title: 'Website', href: 'https://ran-mobile.com' },
+					{ title: 'Tech/Tools', description: 'React' }
+				]
 			},
 			{
+				id: 'ez-tetris',
 				title: 'Ez Tetris Online',
 				outline: 'An online 1v1 tetris game for fun',
 				description: '',
 				img: [ezTetrisImg],
 				status: 'done',
-				stack: ['HTML/CSS', 'JavaScript', 'Node.js', 'MongoDB'],
-				id: 'ez-tetris',
-				link: 'https://ez-tetris-online.suntoes.repl.co'
+				deets: [
+					{ title: 'Website', href: 'https://ez-tetris-online.suntoes.repl.co' },
+					{ title: 'Tech/Tools', description: 'Vanilla HTML/CSS, JavaScript, Node.js, MongoDB' }
+				]
 			},
 			{
+				id: 'ez-snek',
 				title: 'Ez Snek Online',
 				outline: 'An online 1v1 snake game for fun',
 				description: '',
 				img: [ezSnekImg],
 				status: 'done',
-				stack: ['HTML/CSS', 'JavaScript', 'Node.js', 'MongoDB'],
-				id: 'ez-snek',
-				link: 'https://ez-snek-online.suntoes.repl.co'
+				deets: [
+					{ title: 'Website', href: 'https://ez-snek-online.suntoes.repl.co' },
+					{ title: 'Tech/Tools', description: 'Vanilla HTML/CSS, JavaScript, Node.js, MongoDB' }
+				]
 			},
 			{
+				id: 'bot-random-thoughts',
 				title: 'bot/RandomThoughts',
 				outline: '24/7 scraper bot that tweets',
 				description: '',
 				img: [botRandomThoughtsImg, botRandomThoughtsImg01],
 				status: 'inactive',
-				stack: ['Node.js', 'MongoDB'],
-				id: 'bot-random-thoughts',
-				link: 'https://github.com/suntoes/bot-RandomThoughts'
+				deets: [
+					{ title: 'Website', href: 'https://github.com/suntoes/bot-RandomThoughts' },
+					{ title: 'Tech/Tools', description: 'Node.js, MongoDB, Puppeteer' }
+				]
 			}
 		]
 	}

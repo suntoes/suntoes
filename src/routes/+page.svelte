@@ -16,13 +16,13 @@
 				<p>Digital Craftsman</p>
 			</div>
 			<Img
-				src="/images/suntoes.png"
+				src="/images/suntoes.jpg"
 				alt="suntoes"
 				className="w-[7.25rem] h-[7.25rem] !rounded-full object-cover shadow-lg border-[0.2rem] border-solid border-white dark:border-neutral-900"
 			/>
 		</div>
 	</section>
-	<section id='about'>
+	<section id="about">
 		<h3
 			class="mb-1 font-tnr text-3xl font-bold underline decoration-gray-300 underline-offset-[0.2em]"
 		>
@@ -42,8 +42,7 @@
 			<Link
 				className="text-blue-600"
 				underline="hover"
-				href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE3OTg3NDM2NTA2MjE3NTc4?igshid=MzRlODBiNWFlZA%3D%3D"
-				>cats</Link
+				href="https://www.instagram.com/stories/highlights/17987436506217578/">cats</Link
 			>, he is living off of programming somewhere in the suburbs of the Philippines.
 		</p>
 		<div class="mx-auto -mb-1 mt-3 flex justify-center sm:w-1/2">
@@ -57,7 +56,7 @@
 			/>
 		</div>
 	</section>
-	<section id='bio'>
+	<section id="bio">
 		<h3
 			class="mb-1 font-tnr text-3xl font-bold underline decoration-gray-300 underline-offset-[0.2em]"
 		>
@@ -103,42 +102,49 @@
 		<div class="flex gap-4">
 			<p class="font-bold">Feb 2023</p>
 			<p class="flex-1">
-				Worked at <Link
-					className="text-blue-600"
-					underline="hover"
-					href="https://www.saberliquidation.com/">Saber Liquidation</Link
+				Worked at <Link className="text-blue-600" underline="hover" href="/works/saber-liquidation"
+					>Saber Liquidation</Link
 				>
 			</p>
 		</div>
 		<div class="flex gap-4">
 			<p class="font-bold">Mar 2023 to present</p>
 			<p class="flex-1">
-				Works at <Link className="text-blue-600" underline="hover" href="https://dashrd.com"
+				Worked at <Link className="text-blue-600" underline="hover" href="/works/dash-rd"
 					>Dash RD</Link
-				>
+				> as Full-stack
 			</p>
 		</div>
 	</section>
 
-	<section id='i-heart'>
+	<section id="i-heart">
 		<h3
 			class="mb-1 font-tnr text-3xl font-bold underline decoration-gray-300 underline-offset-[0.2em]"
 		>
 			I &lt;3
 		</h3>
 		<p class="indent-4">
-			Coffee, Sleeping, Manga, Anime/TV/Film Series, <Link
+			Coffee, <Link
+				className="text-blue-600"
+				underline="hover"
+				href="https://www.instagram.com/stories/highlights/17987436506217578/">Cats</Link
+			>, <Link
+				className="text-blue-600"
+				underline="hover"
+				href="https://www.instagram.com/stories/highlights/18033858304668406/">Dogs</Link
+			>, Sleeping, Manga, Anime/TV/Film Series, <Link
 				className="text-blue-600"
 				underline="hover"
 				href="https://www.instagram.com/suntoez/">Cars</Link
-			>,
-			<Link className="text-blue-600" underline="hover" href="https://www.instagram.com/suntoez/"
-				>Motorcycles</Link
-			>, Photography, and Programming
+			>, and <Link
+				className="text-blue-600"
+				underline="hover"
+				href="https://www.instagram.com/suntoez/">Motorcycles</Link
+			>
 		</p>
 	</section>
 
-	<section id='on-the-web' class="mb-40 sm:mb-0">
+	<section id="on-the-web" class="mb-40 sm:mb-0">
 		<h3
 			class="mb-1 font-tnr text-3xl font-bold underline decoration-gray-300 underline-offset-[0.2em]"
 		>
