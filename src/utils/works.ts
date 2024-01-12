@@ -163,7 +163,7 @@ export const works: WorkType[] = [
 				deets: [
 					{ title: 'Website', href: 'https://landscape-list.vercel.app' },
 					{ title: 'Tech/Tools', description: 'Next.js, Builder.io, TailwindCSS, Framer Motion' },
-					{ title: 'Digital Agency', href: '/works/dash-rd', description: 'Dash RD' },
+					{ title: 'Digital Agency', href: '/works/dash-rd', description: 'Dash RD' }
 				]
 			},
 			{

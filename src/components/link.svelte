@@ -1,10 +1,10 @@
 <script lang="ts">
-  import FaExternalLinkAlt from 'svelte-icons/fa/FaExternalLinkAlt.svelte'
+	import FaExternalLinkAlt from 'svelte-icons/fa/FaExternalLinkAlt.svelte';
 	import cn from 'classnames';
 
 	export let underline: boolean | 'hover' = true;
 	export let className = '';
-  export let icon = false;
+	export let icon = false;
 	export let href = '';
 	export let id = '';
 </script>
@@ -20,10 +20,9 @@
 				' decoration-[2px] underline-offset-[3px] md:underline-offset-[5px]'
 	)}
 >
-	<slot />
-  {#if icon}
-    <div class='inline-block w-4 h-4 translate-y-1 ml-1'>
-      <FaExternalLinkAlt />
-    </div>
-  {/if}
+	<slot />{#if icon}
+		<div class="ml-1 inline-block h-4 w-4 translate-y-1">
+			<FaExternalLinkAlt />
+		</div>
+	{/if}
 </a>

@@ -34,16 +34,15 @@
 				underline="hover"
 				href="https://seasia.co/2023/02/19/this-is-why-the-philippines-is-known-as-the-pearl-of-the-orient-seas"
 				>the Pearl of the Orient Seas</Link
-			>. After self-learning for about 5 months, he started accepting <Link
+			>. With no time to waste on mockups, he started freelancing after 4 months of <Link
 				className="text-blue-600"
 				underline="hover"
-				href="/works">projects</Link
-			> as a freelancer for fun and hobby. Currently along with his
-			<Link
+				href="https://www.freecodecamp.org/suntoes">freeCodeCamp</Link
+			> and self-study. He is now living off of programming along with his <Link
 				className="text-blue-600"
 				underline="hover"
 				href="https://www.instagram.com/stories/highlights/17987436506217578/">cats</Link
-			>, he is living off of programming somewhere in the suburbs of the Philippines.
+			>.
 		</p>
 		<div class="mx-auto -mb-1 mt-3 flex justify-center sm:w-1/2">
 			<WorkItem
@@ -79,7 +78,11 @@
 		</div>
 		<div class="flex gap-4">
 			<p class="font-bold">Feb 2020</p>
-			<p class="flex-1">Worked as an independent PC technician</p>
+			<p class="flex-1">Worked as a PC technician</p>
+		</div>
+		<div class="flex gap-4">
+			<p class="font-bold">Nov 2021</p>
+			<p class="flex-1">1st console.log("Hello World")</p>
 		</div>
 		<div class="flex gap-4">
 			<p class="font-bold">Apr 2022</p>
@@ -132,7 +135,11 @@
 				className="text-blue-600"
 				underline="hover"
 				href="https://www.instagram.com/stories/highlights/18033858304668406/">Dogs</Link
-			>, Sleeping, Manga, Anime/TV/Film Series, <Link
+			>, Sleeping, Manga, <Link
+				className="text-blue-600"
+				underline="hover"
+				href="https://friend.chess.com/LytQf">Chess</Link
+			>, Anime/TV/Film Series, <Link
 				className="text-blue-600"
 				underline="hover"
 				href="https://www.instagram.com/suntoez/">Cars</Link
