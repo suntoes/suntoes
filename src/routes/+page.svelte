@@ -118,6 +118,12 @@
 				> as Full-stack
 			</p>
 		</div>
+		<div class="flex gap-4">
+			<p class="font-bold">Jan 2024 to present</p>
+			<p class="flex-1">
+				Works at confidential
+			</p>
+		</div>
 	</section>
 
 	<section id="i-heart">
