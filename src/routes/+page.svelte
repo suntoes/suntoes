@@ -1,4 +1,5 @@
 <script>
+	import FaStackOverflow from 'svelte-icons/fa/FaStackOverflow.svelte';
 	import FaRedditAlien from 'svelte-icons/fa/FaRedditAlien.svelte';
 	import FaLinkedin from 'svelte-icons/fa/FaLinkedin.svelte';
 	import FaGithub from 'svelte-icons/fa/FaGithub.svelte';
@@ -16,7 +17,7 @@
 				<p>Digital Craftsman</p>
 			</div>
 			<Img
-				src="/images/suntoes.jpg"
+				src="/images/suntoes.png"
 				alt="suntoes"
 				className="w-[7.25rem] h-[7.25rem] !rounded-full object-cover shadow-lg border-[0.2rem] border-solid border-white dark:border-neutral-900"
 			/>
@@ -34,15 +35,33 @@
 				underline="hover"
 				href="https://seasia.co/2023/02/19/this-is-why-the-philippines-is-known-as-the-pearl-of-the-orient-seas"
 				>the Pearl of the Orient Seas</Link
-			>. With no time to waste on mockups, he started freelancing after 4 months of <Link
+			>. Experienced with <Link
 				className="text-blue-600"
 				underline="hover"
-				href="https://www.freecodecamp.org/suntoes">freeCodeCamp</Link
-			> and self-study. He is now living off of programming along with his <Link
+				href="https://nextjs.org/">Next.js 14</Link
+			>, along with advanced and necessary <Link
 				className="text-blue-600"
 				underline="hover"
-				href="https://www.instagram.com/stories/highlights/17987436506217578/">cats</Link
-			>.
+				href="https://stackoverflow.com/users/18373031/suntoes">practices</Link
+			> to get the most out of your app, he can kickstart your <Link
+				className="text-blue-600"
+				underline="hover"
+				href="https://seasia.co/2023/02/19/this-is-why-the-philippines-is-known-as-the-pearl-of-the-orient-seas"
+				>projects</Link
+			> and adapt to an ever-scaling journey. Currently, he is living off of programming along with his
+			<Link
+				className="text-blue-600"
+				underline="hover"
+				href="https://www.instagram.com/stories/highlights/17925953123887356/">cats</Link
+			> and has a junky <Link
+				className="text-blue-600"
+				underline="hover"
+				href="https://www.instagram.com/p/C630YGpyfZZ/">car</Link
+			> and <Link
+				className="text-blue-600"
+				underline="hover"
+				href="https://www.instagram.com/p/C4IJjalLgLz/?img_index=1">bike</Link
+			> as projects for a hobby.
 		</p>
 		<div class="mx-auto -mb-1 mt-3 flex justify-center sm:w-1/2">
 			<WorkItem
@@ -62,11 +81,11 @@
 			Bio
 		</h3>
 		<div class="flex gap-4">
-			<p class="font-bold">Aug 2002</p>
+			<p class="font-bold">2002</p>
 			<p class="flex-1">Born in Jeddah, Saudi Arabia</p>
 		</div>
 		<div class="flex gap-4">
-			<p class="font-bold">Jun 2019</p>
+			<p class="font-bold">2019 to 2021</p>
 			<p class="flex-1">
 				Studied STEM at <Link
 					className="text-blue-600"
@@ -77,15 +96,22 @@
 			</p>
 		</div>
 		<div class="flex gap-4">
-			<p class="font-bold">Feb 2020</p>
+			<p class="font-bold">2020 to 2022</p>
 			<p class="flex-1">Worked as a PC technician</p>
 		</div>
 		<div class="flex gap-4">
-			<p class="font-bold">Nov 2021</p>
-			<p class="flex-1">1st console.log("Hello World")</p>
+			<p class="font-bold">2021</p>
+			<p class="flex-1">
+				Dropped BSEE at <Link
+					className="text-blue-600"
+					underline="hover"
+					href="https://www.linkedin.com/school/pamantasan-ng-lungsod-ng-valenzuela/?originalSubdomain=ph"
+					>PLV</Link
+				> to learn code
+			</p>
 		</div>
 		<div class="flex gap-4">
-			<p class="font-bold">Apr 2022</p>
+			<p class="font-bold">2022</p>
 			<p class="flex-1">
 				Worked at <Link className="text-blue-600" underline="hover" href="https://www.noblemen.com/"
 					>Noblemen LLC</Link
@@ -93,7 +119,7 @@
 			</p>
 		</div>
 		<div class="flex gap-4">
-			<p class="font-bold">Aug 2022 to present</p>
+			<p class="font-bold">2022 to present</p>
 			<p class="flex-1">
 				Studies BSCS at <Link
 					className="text-blue-600"
@@ -103,26 +129,19 @@
 			</p>
 		</div>
 		<div class="flex gap-4">
-			<p class="font-bold">Feb 2023</p>
+			<p class="font-bold">2023</p>
 			<p class="flex-1">
 				Worked at <Link className="text-blue-600" underline="hover" href="/works/saber-liquidation"
 					>Saber Liquidation</Link
-				>
+				>, <Link className="text-blue-600" underline="hover" href="/works/giftcardx">GiftCardX</Link
+				>, and <Link className="text-blue-600" underline="hover" href="/works/dash-rd">Dash RD</Link
+				> concurrently and at overlapping times; A hint of backend, along mostly frontend experiences
+				with different teams of no more than 5 man
 			</p>
 		</div>
 		<div class="flex gap-4">
-			<p class="font-bold">Mar 2023</p>
-			<p class="flex-1">
-				Worked at <Link className="text-blue-600" underline="hover" href="/works/dash-rd"
-					>Dash RD</Link
-				> as Full-stack
-			</p>
-		</div>
-		<div class="flex gap-4">
-			<p class="font-bold">Jan 2024 to present</p>
-			<p class="flex-1">
-				Works at confidential
-			</p>
+			<p class="font-bold">2024 to present</p>
+			<p class="flex-1">Works at confidential</p>
 		</div>
 	</section>
 
@@ -133,15 +152,7 @@
 			I &lt;3
 		</h3>
 		<p class="indent-4">
-			Coffee, <Link
-				className="text-blue-600"
-				underline="hover"
-				href="https://www.instagram.com/stories/highlights/17987436506217578/">Cats</Link
-			>, <Link
-				className="text-blue-600"
-				underline="hover"
-				href="https://www.instagram.com/stories/highlights/18033858304668406/">Dogs</Link
-			>, Sleeping, Manga, <Link
+			Coffee, Sleeping, Manga, <Link
 				className="text-blue-600"
 				underline="hover"
 				href="https://friend.chess.com/LytQf">Chess</Link
@@ -176,6 +187,16 @@
 			</Link>
 			<Link
 				underline="hover"
+				href="https://stackoverflow.com/users/18373031/suntoes"
+				className="flex gap-2 items-center text-blue-600"
+			>
+				<div class="h-4 w-4 transition ease-in-out hover:rotate-[20deg]">
+					<FaStackOverflow />
+				</div>
+				<p>suntoes</p>
+			</Link>
+			<Link
+				underline="hover"
 				href="https://steamcommunity.com/id/suntoess"
 				className="flex gap-2 items-center text-blue-600"
 			>
@@ -186,16 +207,6 @@
 			</Link>
 			<Link
 				underline="hover"
-				href="https://reddit.com/u/offthepader"
-				className="flex gap-2 items-center text-blue-600"
-			>
-				<div class="h-4 w-4 transition ease-in-out hover:rotate-[20deg]">
-					<FaRedditAlien />
-				</div>
-				<p>u/offthepader</p>
-			</Link>
-			<Link
-				underline="hover"
 				href="https://www.linkedin.com/in/mar-santos/"
 				className="flex gap-2 items-center text-blue-600"
 			>
@@ -203,6 +214,16 @@
 					<FaLinkedin />
 				</div>
 				<p>Mar Santos</p>
+			</Link>
+			<Link
+				underline="hover"
+				href="https://reddit.com/u/offthepader"
+				className="flex gap-2 items-center text-blue-600"
+			>
+				<div class="h-4 w-4 transition ease-in-out hover:rotate-[20deg]">
+					<FaRedditAlien />
+				</div>
+				<p>u/offthepader</p>
 			</Link>
 		</div>
 
