@@ -121,11 +121,11 @@
 		<div class="flex gap-4">
 			<p class="font-bold">2022 to present</p>
 			<p class="flex-1">
-				Studies BSCS at <Link
+				Enrolled himself at <Link
 					className="text-blue-600"
 					underline="hover"
 					href="https://www.linkedin.com/school/our-lady-of-fatima-university/">OLFU</Link
-				>
+				> for BSCS
 			</p>
 		</div>
 		<div class="flex gap-4">
