@@ -30,7 +30,7 @@
 			About
 		</h3>
 		<p class="mb-3 indent-4">
-			Yo, Mar is a JavaScript developer and a BSCS student based in <Link
+			Yo, Mar is a JavaScript developer based in <Link
 				className="text-blue-600"
 				underline="hover"
 				href="https://seasia.co/2023/02/19/this-is-why-the-philippines-is-known-as-the-pearl-of-the-orient-seas"
@@ -39,21 +39,18 @@
 				className="text-blue-600"
 				underline="hover"
 				href="https://nextjs.org/">Next.js 14</Link
-			>, along with advanced and necessary <Link
+			> and <Link className="text-blue-600" underline="hover" href="https://vuejs.org/">Vue 3</Link
+			>, he sure know his way around frontend and most stuff in the backend with <Link
 				className="text-blue-600"
 				underline="hover"
-				href="https://stackoverflow.com/users/18373031/suntoes">practices</Link
-			> to get the most out of your app, he can kickstart your <Link
-				className="text-blue-600"
-				underline="hover"
-				href="https://seasia.co/2023/02/19/this-is-why-the-philippines-is-known-as-the-pearl-of-the-orient-seas"
-				>projects</Link
-			> and adapt to an ever-scaling journey. Currently, he is living off of programming along with his
+				href="https://nodejs.org/en">Node.js</Link
+			>. If coding by the book/instructions isn&lsquo;t enough for you, Mar codes intuitively to get
+			the most out of your app. Currently, he is living off of programming 9-5s alongside his
 			<Link
 				className="text-blue-600"
 				underline="hover"
 				href="https://www.instagram.com/stories/highlights/17925953123887356/">cats</Link
-			> and has a junky <Link
+			> and works on a beat-up <Link
 				className="text-blue-600"
 				underline="hover"
 				href="https://www.instagram.com/p/C630YGpyfZZ/">car</Link
@@ -61,13 +58,13 @@
 				className="text-blue-600"
 				underline="hover"
 				href="https://www.instagram.com/p/C4IJjalLgLz/?img_index=1">bike</Link
-			> as projects for a hobby.
+			> as projects for leisure.
 		</p>
 		<div class="mx-auto -mb-1 mt-3 flex justify-center sm:w-1/2">
 			<WorkItem
 				id="item-instagram"
 				title="Portfolio"
-				description="View all my work stuff"
+				description="View all my *Outdated* work stuff"
 				img="/images/meows-pad.png"
 				status="in progress"
 				pathname="/works"
@@ -115,17 +112,17 @@
 			<p class="flex-1">
 				Worked at <Link className="text-blue-600" underline="hover" href="https://www.noblemen.com/"
 					>Noblemen LLC</Link
-				> as a Junior Dev
+				> as Junior Dev
 			</p>
 		</div>
 		<div class="flex gap-4">
 			<p class="font-bold">2022 to present</p>
 			<p class="flex-1">
-				Enrolled himself at <Link
+				Studies BSCS at <Link
 					className="text-blue-600"
 					underline="hover"
 					href="https://www.linkedin.com/school/our-lady-of-fatima-university/">OLFU</Link
-				> for BSCS
+				>
 			</p>
 		</div>
 		<div class="flex gap-4">
@@ -135,13 +132,13 @@
 					>Saber Liquidation</Link
 				>, <Link className="text-blue-600" underline="hover" href="/works/giftcardx">GiftCardX</Link
 				>, and <Link className="text-blue-600" underline="hover" href="/works/dash-rd">Dash RD</Link
-				> concurrently and at overlapping times; A hint of backend, along mostly frontend experiences
-				with different teams of no more than 5 man
+				>; Hints of backend development, along mostly frontend experiences with different teams of
+				no more than 5 man
 			</p>
 		</div>
 		<div class="flex gap-4">
 			<p class="font-bold">2024 to present</p>
-			<p class="flex-1">Works at confidential</p>
+			<p class="flex-1">Works at confidential as Full-stack Dev</p>
 		</div>
 	</section>
 
@@ -152,7 +149,7 @@
 			I &lt;3
 		</h3>
 		<p class="indent-4">
-			Coffee, Sleeping, Manga, <Link
+			Coffee, Sleeping, Manga, Philosophy, <Link
 				className="text-blue-600"
 				underline="hover"
 				href="https://friend.chess.com/LytQf">Chess</Link
