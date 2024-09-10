@@ -64,7 +64,7 @@
 			<WorkItem
 				id="item-instagram"
 				title="Portfolio"
-				description="View all my work stuff"
+				description="View all my *Outdated* work stuff"
 				img="/images/meows-pad.png"
 				status="in progress"
 				pathname="/works"
