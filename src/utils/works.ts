@@ -1,3 +1,7 @@
+const sweepstakeImg = '/images/sweepstake.png';
+const sweepstakeImg01 = '/images/sweepstake_01.png';
+const sweepstakeImg02 = '/images/sweepstake_02.png';
+
 const landscapeListImg = '/images/landscape-list.png';
 const landscapeListImg01 = '/images/landscape-list_01.png';
 const landscapeListImg02 = '/images/landscape-list_02.png';
@@ -115,6 +119,26 @@ export const works: WorkType[] = [
 		title: 'Works',
 		items: [
 			{
+				id: 'confidential',
+				title: 'confidential',
+				outline: `An online sweepstakes app, europe/internationally based`,
+				description:
+					`An online sweepstakes app where I worked as a solo frontend developer. Also oversaw the backend progress and contributed to various aspects of it. The app reached up to 500 active users during its launch in the first week of May 2024 and continue to grow exponentially, remaining active to this day.`,
+				img: [
+					sweepstakeImg,
+					sweepstakeImg01,		
+					sweepstakeImg02
+				],
+				status: 'active',
+				deets: [
+					{
+						title: 'Tech/Tools',
+						description:
+							'Vue 3, Vue CLI, Web Sockets, PostgreSQL'
+					}
+				]
+			},
+			{
 				id: 'dash-rd',
 				title: 'Dash RD',
 				outline: `A digital development agency where I work as full-stack`,
@@ -214,7 +238,12 @@ export const works: WorkType[] = [
 							'React, React Query, Axios, TailwindCSS, Framer Motion, Storybook, Flask, HTML/CSS/JS'
 					}
 				]
-			},
+			}
+		]
+	},
+	{
+		title: 'Collabs',
+		items: [
 			{
 				id: 'cred-3',
 				title: 'CRED 3',
@@ -253,12 +282,7 @@ export const works: WorkType[] = [
 					{ title: 'Website', href: 'https://miya.vercel.app' },
 					{ title: 'Tech/Tools', description: 'React, TailwindCSS, Framer Motion' }
 				]
-			}
-		]
-	},
-	{
-		title: 'Collabs',
-		items: [
+			},
 			{
 				id: 'turbolegi',
 				title: 'Turbolegi',

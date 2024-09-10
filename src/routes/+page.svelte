@@ -64,7 +64,7 @@
 			<WorkItem
 				id="item-instagram"
 				title="Portfolio"
-				description="View all my *Outdated* work stuff"
+				description="View all my work stuff"
 				img="/images/meows-pad.png"
 				status="in progress"
 				pathname="/works"
@@ -138,7 +138,11 @@
 		</div>
 		<div class="flex gap-4">
 			<p class="font-bold">2024 to present</p>
-			<p class="flex-1">Works at confidential as Full-stack Dev</p>
+			<p class="flex-1">Works at <Link
+				className="text-blue-600"
+				underline="hover"
+				href="/works/confidential"><i>confidential</i></Link
+			> as Full-stack Dev</p>
 		</div>
 	</section>
 
