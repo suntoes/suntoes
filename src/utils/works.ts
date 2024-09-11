@@ -134,7 +134,7 @@ export const works: WorkType[] = [
 					{
 						title: 'Tech/Tools',
 						description:
-							'Vue 3, Web Sockets, PostgreSQL'
+							'Vue 3, Web Sockets, Node.js, PostgreSQL'
 					}
 				]
 			},
