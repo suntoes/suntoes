@@ -35,17 +35,16 @@
 				underline="hover"
 				href="https://seasia.co/2023/02/19/this-is-why-the-philippines-is-known-as-the-pearl-of-the-orient-seas"
 				>the Pearl of the Orient Seas</Link
-			>. Experienced with <Link
+			>. Experienced in building apps for startups, agencies, and sweepstakes industry using <Link
 				className="text-blue-600"
 				underline="hover"
 				href="https://nextjs.org/">Next.js 14</Link
-			> and <Link className="text-blue-600" underline="hover" href="https://vuejs.org/">Vue 3</Link
-			>, he sure know his way around frontend and most stuff in the backend with <Link
+			>, <Link className="text-blue-600" underline="hover" href="https://vuejs.org/">Vue 3</Link
+			>, and <Link
 				className="text-blue-600"
 				underline="hover"
 				href="https://nodejs.org/en">Node.js</Link
-			>. If coding by the book/instructions isn&lsquo;t enough for you, Mar codes intuitively to get
-			the most out of your app. Currently, he is living off of programming 9-5s alongside his
+			>. Currently, he is living off of programming 9-5s alongside his
 			<Link
 				className="text-blue-600"
 				underline="hover"
@@ -64,7 +63,7 @@
 			<WorkItem
 				id="item-instagram"
 				title="Portfolio"
-				description="View all my *Outdated* work stuff"
+				description="View all my work stuff"
 				img="/images/meows-pad.png"
 				status="in progress"
 				pathname="/works"
@@ -82,47 +81,15 @@
 			<p class="flex-1">Born in Jeddah, Saudi Arabia</p>
 		</div>
 		<div class="flex gap-4">
-			<p class="font-bold">2019 to 2021</p>
-			<p class="flex-1">
-				Studied STEM at <Link
-					className="text-blue-600"
-					underline="hover"
-					href="https://www.linkedin.com/school/pamantasan-ng-lungsod-ng-valenzuela/?originalSubdomain=ph"
-					>PLV</Link
-				>
-			</p>
-		</div>
-		<div class="flex gap-4">
-			<p class="font-bold">2020 to 2022</p>
-			<p class="flex-1">Worked as a PC technician</p>
-		</div>
-		<div class="flex gap-4">
-			<p class="font-bold">2021</p>
-			<p class="flex-1">
-				Dropped BSEE at <Link
-					className="text-blue-600"
-					underline="hover"
-					href="https://www.linkedin.com/school/pamantasan-ng-lungsod-ng-valenzuela/?originalSubdomain=ph"
-					>PLV</Link
-				> to learn code
-			</p>
+			<p class="font-bold">2020</p>
+			<p class="flex-1">Worked as PC technician while in high school</p>
 		</div>
 		<div class="flex gap-4">
 			<p class="font-bold">2022</p>
 			<p class="flex-1">
 				Worked at <Link className="text-blue-600" underline="hover" href="https://www.noblemen.com/"
 					>Noblemen LLC</Link
-				> as Junior Dev
-			</p>
-		</div>
-		<div class="flex gap-4">
-			<p class="font-bold">2022 to present</p>
-			<p class="flex-1">
-				Studies BSCS at <Link
-					className="text-blue-600"
-					underline="hover"
-					href="https://www.linkedin.com/school/our-lady-of-fatima-university/">OLFU</Link
-				>
+				> as a Junior Developer while in college
 			</p>
 		</div>
 		<div class="flex gap-4">
@@ -142,7 +109,7 @@
 				className="text-blue-600"
 				underline="hover"
 				href="/works/confidential"><i>confidential</i></Link
-			> as Full-stack Dev</p>
+			></p>
 		</div>
 	</section>
 

@@ -54,7 +54,7 @@
 				<Link
 					href="https://drive.google.com/file/d/1YXKo9QWbSUADe71GOZg0ufMqgM2Fddu2/view?usp=sharing"
 					underline="hover"
-					className="!text-neutral-900 dark:!text-white">(Outdated) Resume</Link
+					className="!text-neutral-900 dark:!text-white">Resume</Link
 				>
 				<ThemeButton />
 			</div>
