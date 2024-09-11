@@ -52,7 +52,7 @@
 					</Link>
 				</span>
 				<Link
-					href="https://drive.google.com/file/d/1OmEsPPai4-AQvHdiM9kWm5MoQ8tfmWuZ/view?usp=sharing"
+					href="https://drive.google.com/file/d/1q-wwzLpEVxhIFEohcGF3hufPnAsWM3wU/view?usp=sharing"
 					underline="hover"
 					className="!text-neutral-900 dark:!text-white">Resume</Link
 				>
