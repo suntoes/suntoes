@@ -172,7 +172,7 @@ export const works: WorkType[] = [
 			{
 				id: 'landscape-list',
 				title: 'Landscape List',
-				outline: `Spearheaded a Next.js app into production with visual CMS.`,
+				outline: `Spearheaded a Landscaping app into production with CMS.`,
 				description: `Built from scratch into production project I made with Dash RD for Landscape List. UI/UX Design is served by Dash RD's talended Graphic Designer on Figma. Crafted with keen eye not limited to visuals but also full modularity of coded components for swift drag & drop CMS action of Builder.io. Multiple integrated webhooks, custom /api routes, and microservices done by yours truly.`,
 				img: [
 					landscapeListImg,
@@ -193,8 +193,8 @@ export const works: WorkType[] = [
 			{
 				id: 'game-of-the-gods',
 				title: 'Game of the Gods',
-				outline: 'The first Maya Chess digital game in 3D made for fun',
-				description: `I fancied this new board game the moment I saw it on IG Reels. I've been wanting to code Chess for a long time but it's already the niche for developers and I wanted something new. So here's Game of the Gods, 3D game edition, the first of it's kind. Nearly have been developed into an online game led by me with Maya Chess, but their kickstarter unfortunately turned unfruitful.`,
+				outline: 'First ever digital adaptation of a cultural Mayan board game.',
+				description: `I fancied this new board game the moment I saw it on IG Reels. I've been wanting to code standard Chess for a long time but it's already the niche. So here's Game of the Gods, 3D game edition, the first of it's kind. Nearly have been developed into an online game led by me with Maya Chess. Due to lack of free time, I just donated this game instead.`,
 				img: [gotgImg, gotgImg01, gotgImg02],
 				status: 'done',
 				deets: [
@@ -210,7 +210,7 @@ export const works: WorkType[] = [
 			{
 				id: 'giftcardx',
 				title: 'GiftCardX',
-				outline: 'A giftcard to crypto MVP under development',
+				outline: 'A giftcard - crypto trading MVP app under development',
 				description:
 					'Ongoing B2C MVP development for a startup providing fast and secured giftcard-to-cryptocurrency conversion services.',
 				img: [giftcardxImg, giftcardxImg01, giftcardxImg02],
@@ -226,7 +226,7 @@ export const works: WorkType[] = [
 			{
 				id: 'saber-liquidation',
 				title: 'Saber Liquidation',
-				outline: `A giftcard to cash MVP developed with a small team. `,
+				outline: `A giftcard exchange platform developed with a small team. `,
 				description: `Developed an MVP web app for a startup providing fast and secured giftcard-to-cash conversion services developed with a small team on restricted schedule as freelancer. Proceeds to become a full-stack developer for the startup and build internal tools.`,
 				img: [saberImg, saberImg01, saberImg02, saberImg03, saberImg04, saberImg05],
 				status: 'active',
@@ -247,7 +247,7 @@ export const works: WorkType[] = [
 			{
 				id: 'cred-3',
 				title: 'CRED 3',
-				outline: 'MVP landing page for a startup based in India',
+				outline: 'Gamified job platform landing page for a startup in India',
 				description:
 					'A very bare (unfinished) MVP for CRED 3, a startup based in India. UI Design is provided and UX for animated objects are improvised.',
 				img: [cred3Img, cred3Img01, cred3Img02, cred3Img03, cred3Img04],
@@ -273,7 +273,7 @@ export const works: WorkType[] = [
 			{
 				id: 'miya',
 				title: 'Miya',
-				outline: 'Discontinued MVP for a finance web app',
+				outline: 'Discontinued MVP for a web finance app in Europe',
 				description:
 					'Discontinued MVP for a finance web app. UI Design is provided and UX for animated objects are improvised.',
 				img: [miyaImg, miyaImg01, miyaImg02],
@@ -284,45 +284,9 @@ export const works: WorkType[] = [
 				]
 			},
 			{
-				id: 'turbolegi',
-				title: 'Turbolegi',
-				outline: 'A memo generator for a company',
-				description: `A stable and small web app for generating company memo deployed on a linux server of DigitalOcean`,
-				img: [turbolegiImg],
-				status: 'done',
-				deets: [
-					{ title: 'Website', href: 'https://turbolegi.com' },
-					{ title: 'Tech/Tools', description: 'Flask, Auth0, Open AI, Jinja2, TailwindCSS' }
-				]
-			},
-			{
-				id: 'tiago-faleiro',
-				title: 'Tiago Faleiro',
-				outline: 'A coaching website for an independent psychologist',
-				description: '',
-				img: [tiagoImg, tiagoImg01, tiagoImg02, tiagoImg03, tiagoImg04, tiagoImg05],
-				status: 'done',
-				deets: [
-					{ title: 'Website', href: 'https://tiago-faleiro.vercel.app/' },
-					{ title: 'Tech/Tools', description: 'React, TailwindCSS, Framer Motion' }
-				]
-			},
-			{
-				id: 'defo',
-				title: 'Defo',
-				outline: 'Value computation from APIs for an NFT',
-				description: '',
-				img: [defoImg],
-				status: 'done',
-				deets: [
-					{ title: 'Website', href: 'https://www.defo.app/' },
-					{ title: 'Tech/Tools', description: 'Next.js' }
-				]
-			},
-			{
 				id: 'ran-online-ph',
 				title: 'RAN Online PH',
-				outline: 'Complete revamp of legacy website for an old school MMORPG',
+				outline: 'Revamp of legacy website for a very old school MMORPG',
 				description:
 					'Complete revamp of legacy website for an old school MMORPG with integration to existing PHP server',
 				img: [ranPhImg, ranPhImg01, ranPhImg02, ranPhImg03],
@@ -335,7 +299,7 @@ export const works: WorkType[] = [
 			{
 				id: 'coffee-dojo',
 				title: 'Coffee Dojo',
-				outline: 'A visual website for a Japanese cafe',
+				outline: 'An info/visual website for a Japanese cafe',
 				description: '',
 				img: [
 					coffeeDojoImg,
@@ -352,18 +316,15 @@ export const works: WorkType[] = [
 				]
 			},
 			{
-				id: 'lumi-films',
-				title: 'Lumi Films Singapore',
-				outline: 'Web design in Figma for a Singapore startup film studio',
+				id: 'tiago-faleiro',
+				title: 'Tiago Faleiro',
+				outline: 'A coaching website for an independent psychologist',
 				description: '',
-				img: [lumiFilmsImg, lumiFilmsImg01],
-				status: 'inactive',
+				img: [tiagoImg, tiagoImg01, tiagoImg02, tiagoImg03, tiagoImg04, tiagoImg05],
+				status: 'done',
 				deets: [
-					{
-						title: 'Figma',
-						href: 'https://www.figma.com/file/Ltq0iqsrXNknjzLDpUV9Xz/lumifilms.sg-(Copy)?node-id=0%3A1&t=hO9ei6PuXo9V88vd-0'
-					},
-					{ title: 'Tech/Tools', description: 'Figma, Photoshop' }
+					{ title: 'Website', href: 'https://tiago-faleiro.vercel.app/' },
+					{ title: 'Tech/Tools', description: 'React, TailwindCSS, Framer Motion' }
 				]
 			},
 			{
@@ -383,6 +344,45 @@ export const works: WorkType[] = [
 	{
 		title: 'Olds',
 		items: [
+			{
+				id: 'lumi-films',
+				title: 'Lumi Films Singapore',
+				outline: 'Web design in Figma for a Singapore startup film studio',
+				description: '',
+				img: [lumiFilmsImg, lumiFilmsImg01],
+				status: 'inactive',
+				deets: [
+					{
+						title: 'Figma',
+						href: 'https://www.figma.com/file/Ltq0iqsrXNknjzLDpUV9Xz/lumifilms.sg-(Copy)?node-id=0%3A1&t=hO9ei6PuXo9V88vd-0'
+					},
+					{ title: 'Tech/Tools', description: 'Figma, Photoshop' }
+				]
+			},
+			{
+				id: 'turbolegi',
+				title: 'Turbolegi',
+				outline: 'A memo generator for a company',
+				description: `A stable and small web app for generating company memo deployed on a linux server of DigitalOcean`,
+				img: [turbolegiImg],
+				status: 'inactive',
+				deets: [
+					{ title: 'Website', href: 'https://turbolegi.com' },
+					{ title: 'Tech/Tools', description: 'Flask, Auth0, Open AI, Jinja2, TailwindCSS' }
+				]
+			},
+			{
+				id: 'defo',
+				title: 'Defo',
+				outline: 'Value computation from APIs for an NFT',
+				description: '',
+				img: [defoImg],
+				status: 'inactive',
+				deets: [
+					{ title: 'Website', href: 'https://www.defo.app/' },
+					{ title: 'Tech/Tools', description: 'Next.js' }
+				]
+			},
 			{
 				id: 'msb8-bluesky',
 				title: 'Bluesky Media',

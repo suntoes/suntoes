@@ -99,8 +99,7 @@
 					>Saber Liquidation</Link
 				>, <Link className="text-blue-600" underline="hover" href="/works/giftcardx">GiftCardX</Link
 				>, and <Link className="text-blue-600" underline="hover" href="/works/dash-rd">Dash RD</Link
-				>; Hints of backend development, along mostly frontend experiences with different teams of
-				no more than 5 man
+				>; Held multiple jobs simultaneously, Gained backend experience, primarily just frontend, collaborated in teams of up to 5 people.
 			</p>
 		</div>
 		<div class="flex gap-4">
