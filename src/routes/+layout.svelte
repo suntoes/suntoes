@@ -4,6 +4,8 @@
 
 	import Nav from 'src/components/nav.svelte';
 	export let data;
+
+	export const prerender = true;
 </script>
 
 <head>

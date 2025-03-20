@@ -122,19 +122,13 @@ export const works: WorkType[] = [
 				id: 'confidential',
 				title: 'confidential',
 				outline: `An online sweepstakes app, europe/internationally based`,
-				description:
-					`An online sweepstakes app where I worked as a solo frontend developer. Also oversaw the backend progress and contributed to various aspects of it. The app reached up to 500 active users during its launch in the first week of May 2024 and continue to grow exponentially, remaining active to this day.`,
-				img: [
-					sweepstakeImg,
-					sweepstakeImg01,		
-					sweepstakeImg02
-				],
+				description: `An online sweepstakes app where I worked as a solo frontend developer. Also oversaw the backend progress and contributed to various aspects of it. The app reached up to 500 active users during its launch in the first week of May 2024 and continue to grow exponentially, remaining active to this day.`,
+				img: [sweepstakeImg, sweepstakeImg01, sweepstakeImg02],
 				status: 'active',
 				deets: [
 					{
 						title: 'Tech/Tools',
-						description:
-							'Vue 3, Web Sockets, Node.js, PostgreSQL'
+						description: 'Vue 3, Web Sockets, Node.js, PostgreSQL'
 					}
 				]
 			},
