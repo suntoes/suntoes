@@ -16,7 +16,12 @@ const config = {
 		}),
 		paths: {
 			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
-		}
+		},
+		pages: 'build',
+		assets: 'build',
+		fallback: undefined,
+		precompress: false,
+		strict: true
 	}
 };
 
